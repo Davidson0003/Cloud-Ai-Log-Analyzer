@@ -1,0 +1,194 @@
+/* ================================
+   INSANE HACKER GREEN THEME 😈
+   File: hacker_green.css
+   ================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+:root {
+    --neon-green: #00ff41;
+    --dark-green: #003b1f;
+    --black-bg: #000000;
+    --glow-green: 0 0 5px #00ff41, 0 0 10px #00ff41, 0 0 20px #00ff41;
+}
+
+/* ===== GLOBAL ===== */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle at top, #001a0d, #000000 70%);
+    color: var(--neon-green);
+    font-family: 'Share Tech Mono', monospace;
+    overflow-x: hidden;
+}
+
+/* ===== TERMINAL EFFECT ===== */
+.terminal {
+    padding: 20px;
+    animation: flicker 2s infinite;
+}
+
+@keyframes flicker {
+    0% { opacity: 0.95; }
+    50% { opacity: 1; }
+    100% { opacity: 0.97; }
+}
+
+/* ===== HEADER ===== */
+header {
+    border-bottom: 1px solid var(--neon-green);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-shadow: var(--glow-green);
+}
+
+header h1 {
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+/* ===== LINKS ===== */
+a {
+    color: var(--neon-green);
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: var(--glow-green);
+}
+
+/* ===== DASHBOARD CARDS ===== */
+.card {
+    background: linear-gradient(145deg, rgba(0,255,65,0.08), rgba(0,0,0,0.9));
+    border: 1px solid var(--neon-green);
+    box-shadow: 0 0 25px rgba(0,255,65,0.35);
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 1px dashed rgba(0,255,65,0.4);
+    pointer-events: none;
+}
+
+.card h2 {
+    margin-top: 0;
+    text-shadow: var(--glow-green);
+}
+
+/* ===== TABLE ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+th, td {
+    border: 1px solid var(--neon-green);
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: var(--dark-green);
+    text-shadow: var(--glow-green);
+}
+
+/* ===== LOG LEVEL COLORS ===== */
+.error {
+    color: #ff0033;
+    text-shadow: 0 0 10px #ff0033;
+}
+
+.warning {
+    color: #ffcc00;
+    text-shadow: 0 0 10px #ffcc00;
+}
+
+.info {
+    color: #00eaff;
+    text-shadow: 0 0 10px #00eaff;
+}
+
+/* ===== BUTTONS ===== */
+button {
+    background: transparent;
+    color: var(--neon-green);
+    border: 1px solid var(--neon-green);
+    padding: 12px 25px;
+    font-family: inherit;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: inset 0 0 10px rgba(0,255,65,0.3);
+}
+
+button:hover {
+    background: var(--dark-green);
+    box-shadow: var(--glow-green);
+}
+
+/* ===== INPUTS ===== */
+input[type="file"] {
+    color: var(--neon-green);
+    background: black;
+    border: 1px solid var(--neon-green);
+    padding: 10px;
+}
+
+/* ===== CANVAS / CHART ===== */
+canvas {
+    background-color: rgba(0,0,0,0.95);
+    border: 1px solid var(--neon-green);
+    box-shadow: var(--glow-green);
+    padding: 10px;
+}
+
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--neon-green);
+    box-shadow: var(--glow-green);
+}
+
+/* ===== MATRIX BACKGROUND EFFECT ===== */
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: repeating-linear-gradient(
+        to bottom,
+        rgba(0,255,65,0.03),
+        rgba(0,255,65,0.03) 1px,
+        transparent 1px,
+        transparent 3px
+    );
+    pointer-events: none;
+    z-index: 999;
+}
+.cursor::after {
+    content: "_";
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+}/* ================================
+   END OF HACKER GREEN THEME
+   ================================ */

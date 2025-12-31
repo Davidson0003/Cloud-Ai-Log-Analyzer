@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard | Cloud AI Log Analyzer{% endblock %}
+
+{% block content %}
+<header>
+    <h1 class="glitch">☠ Cloud AI Log Analyzer ☠</h1>
+    <p id="terminal-text"></p>
+</header>
+
+<div class="dashboard">
+
+    <!-- TERMINAL STATUS -->
+    <div class="card">
+        <h2>System Status</h2>
+        <p id="terminal-text"></p>
+    </div>
+
+    <!-- STATS -->
+    <div class="card">
+        <h2>Live Metrics</h2>
+        <ul>
+            <li>Total Logs: <span id="total-logs">0</span></li>
+            <li>Error Logs: <span id="error-logs">0</span></li>
+            <li>Warning Logs: <span id="warning-logs">0</span></li>
+        </ul>
+    </div>
+
+    <!-- UPLOAD -->
+    <div class="card">
+        <h2>Upload Log File</h2>
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <input type="file" name="logfile" required>
+            <br><br>
+            <button type="submit">UPLOAD</button>
+        </form>
+    </div>
+
+    <!-- CHART -->
+    <div class="card">
+        <h2>Log Analytics</h2>
+        <canvas id="logChart"
+                data-errors="12"
+                data-warnings="7"
+                data-info="30">
+        </canvas>
+    </div>
+
+</div>
+
+{% endblock %}
+

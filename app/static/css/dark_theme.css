@@ -1,0 +1,181 @@
+/* ================================
+   GLOBAL DARK / HACKER THEME
+   File: dark_theme.css
+   ================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ROOT VARIABLES */
+:root {
+    --bg-main: #000000;
+    --bg-panel: #050505;
+    --green-main: #00ff00;
+    --green-soft: #00cc66;
+    --red-error: #ff0033;
+    --yellow-warning: #ffcc00;
+    --cyan-info: #00ffff;
+    --border-glow: 0 0 10px #00ff00;
+    --font-mono: 'Share Tech Mono', monospace;
+}
+
+/* BODY */
+body {
+    background-color: var(--bg-main);
+    color: var(--green-main);
+    font-family: var(--font-mono);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* SCROLLBAR (HACKER STYLE) */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--green-main);
+    box-shadow: 0 0 8px var(--green-main);
+}
+
+/* TERMINAL CONTAINER */
+.terminal {
+    padding: 20px;
+    background: radial-gradient(circle at top, #001100, #000);
+    min-height: 100vh;
+}
+
+/* HEADER */
+header {
+    border-bottom: 1px solid var(--green-main);
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    text-shadow: var(--border-glow);
+}
+
+header h1 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+/* LINKS */
+a {
+    color: var(--green-main);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 15px var(--green-main);
+}
+
+/* BUTTONS */
+button {
+    background: transparent;
+    color: var(--green-main);
+    border: 1px solid var(--green-main);
+    padding: 8px 16px;
+    font-family: var(--font-mono);
+    cursor: pointer;
+    box-shadow: 0 0 8px var(--green-main);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: var(--green-main);
+    color: #000;
+    box-shadow: 0 0 20px var(--green-main);
+}
+
+/* INPUTS */
+input[type="file"],
+input[type="text"],
+input[type="search"] {
+    background: #000;
+    border: 1px solid var(--green-main);
+    color: var(--green-main);
+    padding: 8px;
+    font-family: var(--font-mono);
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px var(--green-main);
+}
+
+/* TABLES */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid var(--green-main);
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background: #002200;
+    text-shadow: var(--border-glow);
+}
+
+tr:hover {
+    background: rgba(0, 255, 0, 0.08);
+}
+
+/* LOG LEVEL COLORS */
+.log-error {
+    color: var(--red-error);
+    text-shadow: 0 0 5px var(--red-error);
+}
+
+.log-warning {
+    color: var(--yellow-warning);
+    text-shadow: 0 0 5px var(--yellow-warning);
+}
+
+.log-info {
+    color: var(--cyan-info);
+    text-shadow: 0 0 5px var(--cyan-info);
+}
+
+/* PANELS / CARDS */
+.panel {
+    background: var(--bg-panel);
+    border: 1px solid var(--green-main);
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: var(--border-glow);
+}
+
+/* FOOTER */
+footer {
+    margin-top: 40px;
+    padding-top: 10px;
+    border-top: 1px solid var(--green-main);
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+/* MATRIX BLINK EFFECT */
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.4; }
+    100% { opacity: 1; }
+}
+
+.blink {
+    animation: blink 1.5s infinite;
+}

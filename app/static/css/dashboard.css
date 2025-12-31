@@ -1,0 +1,134 @@
+/* ================================
+   HACKER DASHBOARD THEME (FULL)
+   File: dashboard.css
+   ================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL */
+body {
+    background-color: #000000;
+    color: #00ff00;
+    font-family: 'Share Tech Mono', monospace;
+    overflow-x: hidden;
+}
+
+/* MAIN DASHBOARD CONTAINER */
+.dashboard {
+    padding: 25px;
+}
+
+/* HEADER */
+header {
+    border-bottom: 1px solid #00ff00;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    font-size: 28px;
+    text-shadow: 0 0 10px #00ff00;
+}
+
+/* CARDS */
+.card {
+    background: rgba(0, 255, 0, 0.04);
+    border: 1px solid #00ff00;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.25);
+    padding: 18px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+}
+
+.card h2 {
+    margin-bottom: 12px;
+    text-shadow: 0 0 6px #00ff00;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #00ff00;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+th {
+    background-color: rgba(0, 255, 0, 0.1);
+    text-shadow: 0 0 5px #00ff00;
+}
+
+tr:hover {
+    background-color: rgba(0, 255, 0, 0.05);
+}
+
+/* BUTTONS */
+button {
+    background-color: #000;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    padding: 10px 22px;
+    cursor: pointer;
+    font-family: inherit;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #002200;
+    box-shadow: 0 0 15px #00ff00;
+}
+
+/* LINKS */
+a {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: 0 0 12px #00ff00;
+}
+
+/* STATUS COLORS */
+.error {
+    color: #ff3333;
+    text-shadow: 0 0 6px #ff3333;
+}
+
+.warning {
+    color: #ffff33;
+    text-shadow: 0 0 6px #ffff33;
+}
+
+.info {
+    color: #33ffff;
+    text-shadow: 0 0 6px #33ffff;
+}
+
+/* CANVAS / CHART */
+canvas {
+    background-color: rgba(0, 0, 0, 0.95);
+    border: 1px solid #00ff00;
+    padding: 12px;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.3);
+}
+
+/* FOOTER */
+footer {
+    margin-top: 40px;
+    border-top: 1px solid #00ff00;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.7;
+}

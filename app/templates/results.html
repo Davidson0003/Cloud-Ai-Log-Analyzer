@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block content %}
+
+<header>
+    <h1 class="glitch">[ LOG ANALYSIS RESULTS ]</h1>
+    <a href="/">← Back to Dashboard</a>
+</header>
+
+<section class="card">
+    <h2>System Summary</h2>
+    <ul>
+        <li>Total Logs: {{ summary.total_logs }}</li>
+        <li class="error">Errors: {{ summary.error_count }}</li>
+        <li class="warning">Warnings: {{ summary.warning_count }}</li>
+        <li class="info">Info: {{ summary.info_count }}</li>
+    </ul>
+</section>
+
+<section class="card">
+    <h2>Log Distribution</h2>
+    <canvas id="logChart"
+        data-errors="{{ summary.error_count }}"
+        data-warnings="{{ summary.warning_count }}"
+        data-info="{{ summary.info_count }}">
+    </canvas>
+</section>
+
+<section class="card">
+    <h2>Parsed Logs</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Timestamp</th>
+                <th>Level</th>
+                <th>Message</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for log in results %}
+            <tr class="{{ log.level | lower }}">
+                <td>{{ log.timestamp }}</td>
+                <td>{{ log.level }}</td>
+                <td>{{ log.message }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+
+{% endblock %}
