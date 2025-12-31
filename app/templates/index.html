@@ -1,101 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Cloud AI Log Analyzer</title>
+<meta charset="UTF-8">
+<title>Cloud AI Log Analyzer</title>
 
-    <style>
-        /* ===== GLOBAL STYLES ===== */
-        body {
-            margin: 0;
-            font-family: Consolas, monospace;
-            background-color: #020b1a;
-            color: #00ff66;
-            overflow: hidden;
-        }
+<style>
+body{
+    margin:0;
+    background:#020b1a;
+    color:#00ff66;
+    font-family:Consolas, monospace;
+}
 
-        /* ===== SPLASH SCREEN ===== */
-        #splash {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: radial-gradient(circle at center, #03162f, #020b1a);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 9999;
-            animation: fadeOut 1s ease-in-out forwards;
-            animation-delay: 3s;
-        }
+/* Splash logo screen */
+#logoScreen{
+    position:fixed;
+    inset:0;
+    background:#020b1a;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    z-index:9999;
+}
 
-        #splash img {
-            width: 220px;
-            opacity: 0;
-            animation: fadeIn 2s ease-in-out forwards;
-        }
+/* Logo */
+#logoScreen img{
+    width:220px;
+    opacity:0;
+    animation:fadeIn 2s forwards;
+}
 
-        @keyframes fadeIn {
-            to { opacity: 1; }
-        }
+/* Loading spinner */
+.loader{
+    margin-top:25px;
+    width:45px;
+    height:45px;
+    border:4px solid rgba(0,255,102,0.2);
+    border-top:4px solid #00ff66;
+    border-radius:50%;
+    animation:spin 1s linear infinite;
+}
 
-        @keyframes fadeOut {
-            to {
-                opacity: 0;
-                visibility: hidden;
-            }
-        }
+@keyframes spin{
+    to{transform:rotate(360deg);}
+}
 
-        /* ===== DASHBOARD ===== */
-        #dashboard {
-            display: none;
-            min-height: 100vh;
-            padding: 30px;
-            background:
-                linear-gradient(rgba(2,11,26,0.92), rgba(2,11,26,0.92)),
-                url("{{ url_for('static', filename='images/logo.jpeg') }}");
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: 420px;
-        }
+@keyframes fadeIn{
+    to{opacity:1;}
+}
 
-        h1 {
-            color: #00ff66;
-            letter-spacing: 2px;
-        }
+/* Dashboard */
+#dashboard{
+    display:none;
+    min-height:100vh;
+    padding:30px;
+    background:
+      linear-gradient(rgba(2,11,26,.97), rgba(2,11,26,.97)),
+      url("{{ url_for('static', filename='images/logo.jpeg') }}") center no-repeat;
+    background-size:420px;
+}
 
-        .panel {
-            border: 1px solid #00ff66;
-            padding: 20px;
-            margin-bottom: 25px;
-            box-shadow: 0 0 15px rgba(0,255,102,0.25);
-        }
-    </style>
+/* Light watermark */
+#dashboard::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    background:url("{{ url_for('static', filename='images/logo.jpeg') }}") center no-repeat;
+    background-size:420px;
+    opacity:0.05;
+    pointer-events:none;
+}
+
+/* Panels */
+.panel{
+    border:1px solid #00ff66;
+    padding:20px;
+    margin-bottom:20px;
+    box-shadow:0 0 12px rgba(0,255,102,.25);
+}
+</style>
 </head>
+
 <body>
 
-    <!-- SPLASH SCREEN -->
-    <div id="splash">
-        <img src="{{ url_for('static', filename='images/logo.jpeg') }}" alt="Logo">
+<!-- LOGO SPLASH -->
+<div id="logoScreen">
+    <img src="{{ url_for('static', filename='images/logo.jpeg') }}">
+    <div class="loader"></div>
+</div>
+
+<!-- DASHBOARD -->
+<div id="dashboard">
+
+    <h1>Cloud AI Log Analyzer</h1>
+
+    <div class="panel">System Status: Running</div>
+    <div class="panel">Live Metrics</div>
+
+    <div class="panel">
+        <h3>Upload Log File</h3>
+        <input type="file">
     </div>
 
-    <!-- MAIN DASHBOARD -->
-    <div id="dashboard">
-        <h1>Cloud AI Log Analyzer</h1>
-
-        <div class="panel">System Status</div>
-        <div class="panel">Live Metrics</div>
-        <div class="panel">Upload Log File</div>
-        <div class="panel">Log Analytics</div>
+    <div class="panel">
+        <h3>Log Analysis Output</h3>
+        <p>Waiting for log data...</p>
     </div>
 
-    <!-- JAVASCRIPT -->
-    <script>
-        setTimeout(() => {
-            document.getElementById("dashboard").style.display = "block";
-        }, 3000);
-    </script>
+</div>
+
+<script>
+setTimeout(()=>{
+    document.getElementById("logoScreen").style.display="none";
+    document.getElementById("dashboard").style.display="block";
+},3000);
+</script>
 
 </body>
 </html>
