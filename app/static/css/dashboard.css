@@ -122,6 +122,15 @@ canvas {
     padding: 12px;
     box-shadow: 0 0 15px rgba(0, 255, 0, 0.3);
 }
+.watermark {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 120px;
+    opacity: 0.1; /* makes it light and subtle */
+    pointer-events: none; /* allows clicks through it */
+    z-index: 0;
+}
 
 /* FOOTER */
 footer {

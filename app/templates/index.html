@@ -55,20 +55,18 @@ body{
     display:none;
     min-height:100vh;
     padding:30px;
-    background:
-      linear-gradient(rgba(2,11,26,.97), rgba(2,11,26,.97)),
-      url("{{ url_for('static', filename='images/logo.jpeg') }}") center no-repeat;
-    background-size:420px;
+    background:#020b1a; /* OLD background color */
+    position:relative;
 }
 
-/* Light watermark */
+/* Watermark only (no background color from logo) */
 #dashboard::before{
     content:"";
     position:fixed;
     inset:0;
     background:url("{{ url_for('static', filename='images/logo.jpeg') }}") center no-repeat;
     background-size:420px;
-    opacity:0.05;
+    opacity:0.06;
     pointer-events:none;
 }
 
@@ -84,13 +82,11 @@ body{
 
 <body>
 
-<!-- LOGO SPLASH -->
 <div id="logoScreen">
     <img src="{{ url_for('static', filename='images/logo.jpeg') }}">
     <div class="loader"></div>
 </div>
 
-<!-- DASHBOARD -->
 <div id="dashboard">
 
     <h1>Cloud AI Log Analyzer</h1>

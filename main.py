@@ -2,7 +2,11 @@ from flask import Flask, render_template, request
 from app.analyzer.parser import read_log_file, parse_log_lines
 import os
 
-app = Flask(__name__, template_folder="app/templates", static_folder="static")
+app = Flask(
+    __name__,
+    template_folder="app/templates",
+    static_folder="app/static"
+)
 
 @app.route('/')
 def index():
