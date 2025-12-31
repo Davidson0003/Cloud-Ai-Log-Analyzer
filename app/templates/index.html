@@ -1,15 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Cloud AI Log Analyzer</title>
+
+    <style>
+        /* ===== GLOBAL STYLES ===== */
+        body {
+            margin: 0;
+            font-family: Consolas, monospace;
+            background-color: #020b1a;
+            color: #00ff66;
+            overflow: hidden;
+        }
+
+        /* ===== SPLASH SCREEN ===== */
+        #splash {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at center, #03162f, #020b1a);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            animation: fadeOut 1s ease-in-out forwards;
+            animation-delay: 3s;
+        }
+
+        #splash img {
+            width: 220px;
+            opacity: 0;
+            animation: fadeIn 2s ease-in-out forwards;
+        }
+
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+
+        @keyframes fadeOut {
+            to {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+
+        /* ===== DASHBOARD ===== */
+        #dashboard {
+            display: none;
+            min-height: 100vh;
+            padding: 30px;
+            background:
+                linear-gradient(rgba(2,11,26,0.92), rgba(2,11,26,0.92)),
+                url("{{ url_for('static', filename='images/logo.jpeg') }}");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 420px;
+        }
+
+        h1 {
+            color: #00ff66;
+            letter-spacing: 2px;
+        }
+
+        .panel {
+            border: 1px solid #00ff66;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 0 15px rgba(0,255,102,0.25);
+        }
+    </style>
 </head>
 <body>
 
-    <img src="{{ url_for('static', filename='images/logo.jpeg') }}"
-         alt="Cloud AI Log Analyzer Logo"
-         width="120">
+    <!-- SPLASH SCREEN -->
+    <div id="splash">
+        <img src="{{ url_for('static', filename='images/logo.jpeg') }}" alt="Logo">
+    </div>
 
-    <h1>Cloud AI Log Analyzer</h1>
+    <!-- MAIN DASHBOARD -->
+    <div id="dashboard">
+        <h1>Cloud AI Log Analyzer</h1>
+
+        <div class="panel">System Status</div>
+        <div class="panel">Live Metrics</div>
+        <div class="panel">Upload Log File</div>
+        <div class="panel">Log Analytics</div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        setTimeout(() => {
+            document.getElementById("dashboard").style.display = "block";
+        }, 3000);
+    </script>
 
 </body>
 </html>
