@@ -2,6 +2,14 @@
 {% block content %}
 
 <header>
+    <a href="{{ url_for('index') }}"> <!-- Django: {% url 'index' %} -->
+    <img src="{{ url_for('static', filename='images/logo.jpeg') }}" alt="Logo" width="150">
+  </a>
+  <nav>
+    <a href="{{ url_for('index') }}">Home</a>
+    <a href="{{ url_for('dashboard') }}">Dashboard</a>
+    <a href="{{ url_for('results') }}">Results</a>
+    </nav>
     <h1 class="glitch">[ LOG ANALYSIS RESULTS ]</h1>
     <a href="/">← Back to Dashboard</a>
 </header>

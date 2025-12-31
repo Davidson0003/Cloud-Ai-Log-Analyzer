@@ -4,7 +4,10 @@ import os
 
 app = Flask(__name__, template_folder="app/templates", static_folder="static")
 
-@app.route("/")
+@app.route('/')
+def index():
+    return render_template('index.html') 
+@app.route('/dashboard')
 def home():
     return render_template("dashboard.html")
 
@@ -38,7 +41,6 @@ def upload_file():
         results=parsed_logs,
         summary=summary
     )
-from app import create_app
-app = create_app()
+
 if __name__ == "__main__":
     app.run(debug=True)
