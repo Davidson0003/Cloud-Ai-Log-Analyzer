@@ -1,19 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Cloud AI Log Analyzer</title>
+{% extends "base.html" %}
 
+{% block content %}
 <style>
-body{
-    margin:0;
-    background:#020b1a;
-    color:#00ff66;
-    font-family:Consolas, monospace;
-}
-
-/* Splash logo screen */
-#logoScreen{
+/* Splash screen */
+#splash{
     position:fixed;
     inset:0;
     background:#020b1a;
@@ -24,94 +14,40 @@ body{
     z-index:9999;
 }
 
-/* Logo */
-#logoScreen img{
+/* Logo fade-in */
+#splash img{
     width:220px;
     opacity:0;
     animation:fadeIn 2s forwards;
 }
 
-/* Loading spinner */
+/* Processing animation */
 .loader{
     margin-top:25px;
-    width:45px;
-    height:45px;
-    border:4px solid rgba(0,255,102,0.2);
+    width:48px;
+    height:48px;
+    border:4px solid rgba(0,255,102,.2);
     border-top:4px solid #00ff66;
     border-radius:50%;
     animation:spin 1s linear infinite;
 }
 
-@keyframes spin{
-    to{transform:rotate(360deg);}
-}
-
 @keyframes fadeIn{
     to{opacity:1;}
 }
-
-/* Dashboard */
-#dashboard{
-    display:none;
-    min-height:100vh;
-    padding:30px;
-    background:#020b1a; /* OLD background color */
-    position:relative;
-}
-
-/* Watermark only (no background color from logo) */
-#dashboard::before{
-    content:"";
-    position:fixed;
-    inset:0;
-    background:url("{{ url_for('static', filename='images/logo.jpeg') }}") center no-repeat;
-    background-size:420px;
-    opacity:0.06;
-    pointer-events:none;
-}
-
-/* Panels */
-.panel{
-    border:1px solid #00ff66;
-    padding:20px;
-    margin-bottom:20px;
-    box-shadow:0 0 12px rgba(0,255,102,.25);
+@keyframes spin{
+    to{transform:rotate(360deg);}
 }
 </style>
-</head>
 
-<body>
-
-<div id="logoScreen">
+<div id="splash">
     <img src="{{ url_for('static', filename='images/logo.jpeg') }}">
     <div class="loader"></div>
 </div>
 
-<div id="dashboard">
-
-    <h1>Cloud AI Log Analyzer</h1>
-
-    <div class="panel">System Status: Running</div>
-    <div class="panel">Live Metrics</div>
-
-    <div class="panel">
-        <h3>Upload Log File</h3>
-        <input type="file">
-    </div>
-
-    <div class="panel">
-        <h3>Log Analysis Output</h3>
-        <p>Waiting for log data...</p>
-    </div>
-
-</div>
-
 <script>
-setTimeout(()=>{
-    document.getElementById("logoScreen").style.display="none";
-    document.getElementById("dashboard").style.display="block";
+setTimeout(function(){
+    window.location.href = "/dashboard";
 },3000);
 </script>
-
-</body>
-</html>
+{% endblock %}

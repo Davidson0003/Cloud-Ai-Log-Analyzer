@@ -1,59 +1,51 @@
+<!-- results.html -->
 {% extends "base.html" %}
+
+{% block title %}Results | Cloud AI Log Analyzer{% endblock %}
+
 {% block content %}
 
-<header>
-    <a href="{{ url_for('index') }}"> <!-- Django: {% url 'index' %} -->
-    <img src="{{ url_for('static', filename='images/logo.jpeg') }}" alt="Logo" width="150">
-  </a>
-  <nav>
-    <a href="{{ url_for('index') }}">Home</a>
-    <a href="{{ url_for('dashboard') }}">Dashboard</a>
-    <a href="{{ url_for('results') }}">Results</a>
-    </nav>
-    <h1 class="glitch">[ LOG ANALYSIS RESULTS ]</h1>
-    <a href="/">← Back to Dashboard</a>
-</header>
+<div class="container">
 
-<section class="card">
-    <h2>System Summary</h2>
-    <ul>
-        <li>Total Logs: {{ summary.total_logs }}</li>
-        <li class="error">Errors: {{ summary.error_count }}</li>
-        <li class="warning">Warnings: {{ summary.warning_count }}</li>
-        <li class="info">Info: {{ summary.info_count }}</li>
-    </ul>
-</section>
+    <h1 class="glitch">☠ Analysis Results ☠</h1>
 
-<section class="card">
-    <h2>Log Distribution</h2>
-    <canvas id="logChart"
-        data-errors="{{ summary.error_count }}"
-        data-warnings="{{ summary.warning_count }}"
-        data-info="{{ summary.info_count }}">
-    </canvas>
-</section>
+    <p id="typing-effect" class="status-line"></p>
 
-<section class="card">
-    <h2>Parsed Logs</h2>
+    <!-- SUMMARY PANEL -->
+    <div class="panel">
+        <h3>📊 Log Summary</h3>
+        <ul>
+            <li>Total Logs: {{ summary.total_logs }}</li>
+            <li>Errors: {{ summary.error_count }}</li>
+            <li>Warnings: {{ summary.warning_count }}</li>
+            <li>Info: {{ summary.info_count }}</li>
+        </ul>
+    </div>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Timestamp</th>
-                <th>Level</th>
-                <th>Message</th>
-            </tr>
-        </thead>
-        <tbody>
+    <!-- LOG RESULTS -->
+    <div class="panel">
+        <h3>📄 Parsed Logs</h3>
+        <div class="log-output">
             {% for log in results %}
-            <tr class="{{ log.level | lower }}">
-                <td>{{ log.timestamp }}</td>
-                <td>{{ log.level }}</td>
-                <td>{{ log.message }}</td>
-            </tr>
+                <p>[{{ log.timestamp }}] {{ log.level }} - {{ log.message }}</p>
             {% endfor %}
-        </tbody>
-    </table>
-</section>
+        </div>
+    </div>
 
+    <div class="panel">
+        <a href="/upload-page" class="btn">⬆ Upload Another File</a>
+        <a href="/dashboard" class="btn">← Back to Dashboard</a>
+    </div>
+
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/typing_effect.js') }}"></script>
+<script src="{{ url_for('static', filename='js/charts.js') }}"></script>
+
+<script>
+startTyping("Analyzing logs ░▒▓ AI engine active ░▒▓ Generating report...");
+</script>
 {% endblock %}
