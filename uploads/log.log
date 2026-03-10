@@ -1,0 +1,11 @@
+2026-03-07 10:12:01 INFO Server started successfully
+2026-03-07 10:12:15 INFO User login successful - user_id=104
+2026-03-07 10:12:30 INFO Database connection established
+
+2026-03-07 10:13:02 WARNING High memory usage detected
+2026-03-07 10:13:20 WARNING Disk usage above 80%
+2026-03-07 10:13:55 WARNING Suspicious login attempt detected
+
+2026-03-07 10:14:10 ERROR Failed to connect to database
+2026-03-07 10:14:25 ERROR API request timeout
+2026-03-07 10:14:40 ERROR Unauthorized access attempt blocked

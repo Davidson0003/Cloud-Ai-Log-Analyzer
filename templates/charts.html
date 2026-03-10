@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Security Charts</title>
+
+<link rel="stylesheet" href="/static/css/hacker.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.chartBox{
+border:1px solid #00ff9c;
+padding:20px;
+box-shadow:0 0 15px #00ff9c55;
+text-align:center;
+}
+
+canvas{
+max-width:350px;
+margin:auto;
+}
+
+</style>
+
+</head>
+
+<body>
+<canvas id="matrix"></canvas>
+
+<div class="container">
+
+<h1>📊 SECURITY VISUALIZATION DASHBOARD</h1>
+
+<div class="grid">
+
+<div class="chartBox">
+<h3>Risk Score</h3>
+<canvas id="riskChart"></canvas>
+</div>
+
+<div class="chartBox">
+<h3>Error vs Warning</h3>
+<canvas id="logChart"></canvas>
+</div>
+
+<div class="chartBox">
+<h3>Log Distribution</h3>
+<canvas id="distributionChart"></canvas>
+</div>
+
+</div>
+
+<br>
+
+<a href="/">
+<button>⬅ BACK</button>
+</a>
+
+</div>
+
+<script>
+
+const data = JSON.parse(localStorage.getItem("analysis"));
+
+if(data){
+
+// -------- Risk Chart --------
+
+const riskCtx = document.getElementById("riskChart");
+
+new Chart(riskCtx,{
+type:"doughnut",
+data:{
+labels:["Risk","Safe"],
+datasets:[{
+data:[data.summary.risk_score,100-data.summary.risk_score],
+backgroundColor:["#ff0033","#00ff9c"]
+}]
+}
+});
+
+
+// -------- Error Warning Chart --------
+
+const logCtx = document.getElementById("logChart");
+
+new Chart(logCtx,{
+type:"bar",
+data:{
+labels:["Errors","Warnings"],
+datasets:[{
+label:"Log Events",
+data:[
+data.stats.errors,
+data.stats.warnings
+],
+backgroundColor:["#ff0033","#ffaa00"]
+}]
+}
+});
+
+
+// -------- Distribution Chart --------
+
+const distCtx = document.getElementById("distributionChart");
+
+new Chart(distCtx,{
+type:"pie",
+data:{
+labels:["Errors","Warnings","Info"],
+datasets:[{
+data:[
+data.stats.errors,
+data.stats.warnings,
+data.stats.info
+],
+backgroundColor:[
+"#ff0033",
+"#ffaa00",
+"#00ff9c"
+]
+}]
+}
+});
+
+}
+
+
+</script>
+
+</body>
+
+</html>

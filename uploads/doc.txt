@@ -1,0 +1,30 @@
+Backend flow
+Browser
+  ↓
+HTML (dashboard.html / upload.html)
+  ↓
+Flask routes (main.py / routes.py)
+  ↓
+Analyzer logic (parser.py, summary.py)
+  ↓
+Result sent back to HTML (results.html)
+
+
+Frontend flow
+HTML
+ ├── CSS (dark_theme.css, hacker_green.css, dashboard.css)
+ └── JS  (dashboard.js, charts.js, typing_effect.js)
+
+
+File connection map
+main.py
+  └── renders → dashboard.html
+                  ├── loads → dashboard.css
+                  ├── loads → hacker_green.css
+                  ├── loads → dashboard.js
+                  └── loads → charts.js
+
+upload.html → upload → results.html
+results.html
+  ├── uses → charts.js
+  └── uses → CSS themes

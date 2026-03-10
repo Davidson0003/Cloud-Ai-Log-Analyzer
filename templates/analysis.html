@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>AI Security Analysis</title>
+
+<link rel="stylesheet" href="/static/css/hacker.css">
+
+<style>
+
+body{
+background:black;
+color:#00ff9c;
+font-family:monospace;
+}
+
+.container{
+width:90%;
+margin:auto;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.card{
+border:1px solid #00ff9c;
+padding:20px;
+text-align:center;
+box-shadow:0 0 15px #00ff9c55;
+}
+
+.card h2{
+font-size:28px;
+}
+
+.status{
+display:flex;
+gap:20px;
+margin-top:20px;
+}
+
+.status div{
+border:1px solid #00ff9c;
+padding:10px;
+flex:1;
+text-align:center;
+}
+
+.terminal{
+background:black;
+color:#00ff9c;
+padding:15px;
+height:150px;
+overflow:auto;
+border:1px solid #00ff9c;
+margin-top:10px;
+}
+
+.panel{
+margin-top:30px;
+border:1px solid #00ff9c;
+padding:20px;
+}
+
+.alert{
+padding:12px;
+margin-top:10px;
+border-left:5px solid;
+animation:blink 1.5s infinite alternate;
+}
+
+.alert.safe{
+border-color:#00ff9c;
+background:#002b1a;
+}
+
+.alert.warning{
+border-color:orange;
+background:#332100;
+}
+
+.alert.critical{
+border-color:red;
+background:#330000;
+}
+
+@keyframes blink{
+from{opacity:0.6;}
+to{opacity:1;}
+}
+
+#threatBar{
+height:20px;
+background:red;
+width:10%;
+}
+
+button{
+background:black;
+border:1px solid #00ff9c;
+color:#00ff9c;
+padding:10px;
+margin-top:20px;
+cursor:pointer;
+}
+
+</style>
+
+</head>
+
+<body>
+<canvas id="matrix"></canvas>
+<div class="container">
+
+<h1>☠ AI SECURITY OPERATIONS CENTER ☠</h1>
+
+<!-- METRICS -->
+
+<div class="grid">
+
+<div class="card">
+<h3>Total Logs</h3>
+<h2 id="totalLogs">0</h2>
+</div>
+
+<div class="card">
+<h3>Errors</h3>
+<h2 id="errors">0</h2>
+</div>
+
+<div class="card">
+<h3>Warnings</h3>
+<h2 id="warnings">0</h2>
+</div>
+
+<div class="card">
+<h3>Risk Level</h3>
+<h2 id="riskLevel">LOW</h2>
+</div>
+
+</div>
+
+<!-- SYSTEM STATUS -->
+
+<div class="status">
+
+<div>
+<h3>System Status</h3>
+<p id="systemStatus">Monitoring</p>
+</div>
+
+<div>
+<h3>Anomaly Detection</h3>
+<p id="anomalyStatus">None</p>
+</div>
+
+<div>
+<h3>Threat Level</h3>
+<p id="threatStatus">Safe</p>
+</div>
+
+</div>
+
+<!-- AI TERMINAL -->
+
+<h2 style="margin-top:40px;">🧠 AI Security Console</h2>
+
+<div class="terminal" id="terminal"></div>
+
+<!-- ALERTS -->
+
+<div class="panel">
+
+<h2>🚨 AI Threat Alerts</h2>
+
+<div id="alertBox"></div>
+
+</div>
+
+<!-- THREAT SCORE -->
+
+<div class="panel">
+
+<h2>🧠 AI Threat Score</h2>
+
+<div style="border:1px solid #00ff9c;padding:10px">
+<div id="threatBar"></div>
+</div>
+
+</div>
+
+<!-- LIVE ATTACK FEED -->
+
+<div class="panel">
+
+<h2>📡 Live Attack Feed</h2>
+
+<div class="terminal" id="attackFeed"></div>
+
+</div>
+
+<a href="/"><button>⬅ Back</button></a>
+<a href="/charts"><button>View Charts</button></a>
+
+</div>
+
+<script>
+
+const data = JSON.parse(localStorage.getItem("analysis"));
+
+if(data){
+
+document.getElementById("totalLogs").innerText = data.stats.total_logs;
+document.getElementById("errors").innerText = data.stats.errors;
+document.getElementById("warnings").innerText = data.stats.warnings;
+document.getElementById("riskLevel").innerText = data.summary.risk_level;
+
+if(data.summary.is_anomaly){
+document.getElementById("anomalyStatus").innerText="Detected";
+document.getElementById("threatStatus").innerText=data.summary.risk_level;
+}else{
+document.getElementById("anomalyStatus").innerText="None";
+document.getElementById("threatStatus").innerText="Safe";
+}
+
+const alertBox = document.getElementById("alertBox");
+
+function showAlert(type,message){
+
+const div=document.createElement("div");
+
+div.classList.add("alert");
+div.classList.add(type);
+
+div.innerText=message;
+
+alertBox.appendChild(div);
+
+}
+
+if(data.summary.risk_level==="HIGH"){
+
+showAlert("critical","🚨 CRITICAL: High risk activity detected!");
+
+document.body.style.background="#120000";
+
+setInterval(()=>{
+document.body.style.background =
+document.body.style.background==="black" ? "#120000" : "black";
+},500);
+
+}
+
+if(data.summary.risk_level==="MEDIUM"){
+showAlert("warning","⚠ Suspicious activity detected.");
+}
+
+if(data.summary.risk_level==="LOW"){
+showAlert("safe","✔ System secure.");
+}
+
+if(data.summary.is_anomaly){
+showAlert("critical","☠ AI detected anomaly in log patterns.");
+}
+
+const terminal=document.getElementById("terminal");
+
+const logs=[
+
+"Initializing AI security engine...",
+"Scanning uploaded logs...",
+"Parsing log patterns...",
+"Detecting anomalies...",
+"Calculating risk score...",
+"Generating threat intelligence...",
+data.explanation
+
+];
+
+let i=0;
+
+function typeLine(){
+
+if(i<logs.length){
+
+terminal.innerHTML += logs[i] + "<br>";
+
+terminal.scrollTop=terminal.scrollHeight;
+
+i++;
+
+setTimeout(typeLine,700);
+
+}
+
+}
+
+typeLine();
+
+}
+
+const attackFeed=document.getElementById("attackFeed");
+
+const attacks=[
+
+"Brute force login attempt from 185.220.101.1",
+"Port scan detected on port 22",
+"Suspicious SQL query detected",
+"Multiple failed authentication attempts",
+"Possible XSS payload detected",
+"High traffic anomaly detected",
+"Unauthorized admin access attempt",
+"Malicious IP flagged by AI engine"
+
+];
+
+function generateAttack(){
+
+const msg=attacks[Math.floor(Math.random()*attacks.length)];
+
+attackFeed.innerHTML+="⚠ "+msg+"<br>";
+
+attackFeed.scrollTop=attackFeed.scrollHeight;
+
+}
+
+setInterval(generateAttack,2000);
+
+const bar=document.getElementById("threatBar");
+
+let score=10;
+
+function updateThreat(){
+
+score+=Math.random()*20-10;
+
+if(score<5) score=5;
+if(score>100) score=100;
+
+bar.style.width=score+"%";
+
+}
+
+setInterval(updateThreat,3000);
+
+</script>
+
+</body>
+
+</html>

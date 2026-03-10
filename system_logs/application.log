@@ -1,0 +1,425 @@
+2026-02-04 05:59:11,826 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-04 05:59:11,827 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-04 05:59:11,831 - INFO -  * Restarting with stat
+2026-02-04 05:59:13,438 - WARNING -  * Debugger is active!
+2026-02-04 05:59:13,448 - INFO -  * Debugger PIN: 464-173-076
+2026-02-04 05:59:28,181 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-04 05:59:28,185 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-04 05:59:28,189 - INFO -  * Restarting with stat
+2026-02-04 05:59:29,274 - WARNING -  * Debugger is active!
+2026-02-04 05:59:29,280 - INFO -  * Debugger PIN: 464-173-076
+2026-02-04 06:00:07,102 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-04 06:00:07,103 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-04 06:00:07,110 - INFO -  * Restarting with stat
+2026-02-04 06:00:08,287 - WARNING -  * Debugger is active!
+2026-02-04 06:00:08,292 - INFO -  * Debugger PIN: 464-173-076
+2026-02-04 06:00:34,353 - INFO - 127.0.0.1 - - [04/Feb/2026 06:00:34] "GET /health HTTP/1.1" 200 -
+2026-02-04 06:00:34,512 - INFO - 127.0.0.1 - - [04/Feb/2026 06:00:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-04 21:11:21,112 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-04 21:11:21,121 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-04 21:11:21,126 - INFO -  * Restarting with stat
+2026-02-04 21:11:29,774 - WARNING -  * Debugger is active!
+2026-02-04 21:11:29,815 - INFO -  * Debugger PIN: 464-173-076
+2026-02-04 22:24:58,699 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-04 22:24:58,700 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-04 22:24:58,705 - INFO -  * Restarting with stat
+2026-02-04 22:24:59,475 - WARNING -  * Debugger is active!
+2026-02-04 22:24:59,481 - INFO -  * Debugger PIN: 464-173-076
+2026-02-04 22:29:24,771 - INFO - 127.0.0.1 - - [04/Feb/2026 22:29:24] "GET / HTTP/1.1" 200 -
+2026-02-04 22:29:25,123 - INFO - 127.0.0.1 - - [04/Feb/2026 22:29:25] "GET /static/css/hacker.css HTTP/1.1" 200 -
+2026-02-04 22:29:25,255 - INFO - 127.0.0.1 - - [04/Feb/2026 22:29:25] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2026-02-04 22:29:25,454 - INFO - 127.0.0.1 - - [04/Feb/2026 22:29:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-04 22:29:59,640 - ERROR - Invalid file upload attempt
+2026-02-04 22:29:59,641 - INFO - 127.0.0.1 - - [04/Feb/2026 22:29:59] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2026-02-04 22:33:39,125 - INFO - Log file uploaded successfully
+2026-02-04 22:33:39,126 - INFO - Log analysis started
+2026-02-04 22:33:39,127 - INFO - Log analysis completed successfully
+2026-02-04 22:33:39,128 - INFO - 127.0.0.1 - - [04/Feb/2026 22:33:39] "POST /analyze HTTP/1.1" 200 -
+2026-02-04 22:33:52,970 - INFO - 127.0.0.1 - - [04/Feb/2026 22:33:52] "[33mGET /reports/report_20260204_223339.json HTTP/1.1[0m" 404 -
+2026-02-04 22:35:45,452 - INFO - 127.0.0.1 - - [04/Feb/2026 22:35:45] "[33mGET /reports/report_20260204_223339.json HTTP/1.1[0m" 404 -
+2026-02-04 22:41:00,453 - INFO -  * Detected change in 'C:\\Users\\DELL\\Documents\\Cloud-AI-Dashboard\\Cloud-Ai-Log-Analyzer\\app.py', reloading
+2026-02-04 22:41:00,819 - INFO -  * Restarting with stat
+2026-02-04 22:41:02,810 - WARNING -  * Debugger is active!
+2026-02-04 22:41:02,897 - INFO -  * Debugger PIN: 464-173-076
+2026-02-04 22:42:24,938 - INFO -  * Detected change in 'C:\\Users\\DELL\\Documents\\Cloud-AI-Dashboard\\Cloud-Ai-Log-Analyzer\\app.py', reloading
+2026-02-04 22:42:25,037 - INFO -  * Restarting with stat
+2026-02-04 22:42:25,899 - WARNING -  * Debugger is active!
+2026-02-04 22:42:25,907 - INFO -  * Debugger PIN: 464-173-076
+2026-02-04 22:42:34,887 - INFO - 127.0.0.1 - - [04/Feb/2026 22:42:34] "GET /reports/report_20260204_223339.json HTTP/1.1" 200 -
+2026-02-04 23:06:38,386 - INFO - 127.0.0.1 - - [04/Feb/2026 23:06:38] "GET / HTTP/1.1" 200 -
+2026-02-04 23:06:38,507 - INFO - 127.0.0.1 - - [04/Feb/2026 23:06:38] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-02-04 23:06:38,534 - INFO - 127.0.0.1 - - [04/Feb/2026 23:06:38] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-04 23:06:46,907 - INFO - 127.0.0.1 - - [04/Feb/2026 23:06:46] "GET / HTTP/1.1" 200 -
+2026-02-04 23:06:47,221 - INFO - 127.0.0.1 - - [04/Feb/2026 23:06:47] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-02-04 23:06:47,236 - INFO - 127.0.0.1 - - [04/Feb/2026 23:06:47] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-04 23:06:51,325 - INFO - 127.0.0.1 - - [04/Feb/2026 23:06:51] "GET / HTTP/1.1" 200 -
+2026-02-04 23:06:51,506 - INFO - 127.0.0.1 - - [04/Feb/2026 23:06:51] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-02-04 23:06:51,590 - INFO - 127.0.0.1 - - [04/Feb/2026 23:06:51] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-04 23:55:30,469 - INFO -  * Detected change in 'C:\\Users\\DELL\\Documents\\Cloud-AI-Dashboard\\Cloud-Ai-Log-Analyzer\\app.py', reloading
+2026-02-04 23:55:30,898 - INFO -  * Restarting with stat
+2026-02-04 23:55:33,360 - WARNING -  * Debugger is active!
+2026-02-04 23:55:33,366 - INFO -  * Debugger PIN: 464-173-076
+2026-02-04 23:56:07,528 - INFO -  * Detected change in 'C:\\Users\\DELL\\Documents\\Cloud-AI-Dashboard\\Cloud-Ai-Log-Analyzer\\app.py', reloading
+2026-02-04 23:56:07,688 - INFO -  * Restarting with stat
+2026-02-05 00:01:52,145 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-05 00:01:52,145 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-05 00:01:52,148 - INFO -  * Restarting with stat
+2026-02-05 00:02:03,099 - WARNING -  * Debugger is active!
+2026-02-05 00:02:03,113 - INFO -  * Debugger PIN: 464-173-076
+2026-02-05 00:02:04,223 - INFO - 127.0.0.1 - - [05/Feb/2026 00:02:04] "GET / HTTP/1.1" 200 -
+2026-02-05 00:02:05,238 - INFO - 127.0.0.1 - - [05/Feb/2026 00:02:05] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-02-05 00:02:05,768 - INFO - 127.0.0.1 - - [05/Feb/2026 00:02:05] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2026-02-05 00:02:22,399 - INFO - Log file uploaded successfully
+2026-02-05 00:02:22,399 - INFO - Log analysis started
+2026-02-05 00:02:22,402 - INFO - Log analysis completed successfully
+2026-02-05 00:02:22,403 - INFO - 127.0.0.1 - - [05/Feb/2026 00:02:22] "POST /analyze HTTP/1.1" 200 -
+2026-02-05 00:10:11,242 - INFO - Log file uploaded successfully
+2026-02-05 00:10:11,243 - INFO - Log analysis started
+2026-02-05 00:10:11,247 - INFO - Log analysis completed successfully
+2026-02-05 00:10:11,248 - INFO - 127.0.0.1 - - [05/Feb/2026 00:10:11] "POST /analyze HTTP/1.1" 200 -
+2026-02-05 00:10:12,512 - INFO - Log file uploaded successfully
+2026-02-05 00:10:12,513 - INFO - Log analysis started
+2026-02-05 00:10:12,515 - INFO - Log analysis completed successfully
+2026-02-05 00:10:12,515 - INFO - 127.0.0.1 - - [05/Feb/2026 00:10:12] "POST /analyze HTTP/1.1" 200 -
+2026-02-05 00:10:12,768 - INFO - Log file uploaded successfully
+2026-02-05 00:10:12,769 - INFO - Log analysis started
+2026-02-05 00:10:12,772 - INFO - Log analysis completed successfully
+2026-02-05 00:10:12,775 - INFO - 127.0.0.1 - - [05/Feb/2026 00:10:12] "POST /analyze HTTP/1.1" 200 -
+2026-02-05 00:10:13,016 - INFO - Log file uploaded successfully
+2026-02-05 00:10:13,016 - INFO - Log analysis started
+2026-02-05 00:10:13,018 - INFO - Log analysis completed successfully
+2026-02-05 00:10:13,027 - INFO - 127.0.0.1 - - [05/Feb/2026 00:10:13] "POST /analyze HTTP/1.1" 200 -
+2026-02-05 00:10:13,250 - INFO - Log file uploaded successfully
+2026-02-05 00:10:13,251 - INFO - Log analysis started
+2026-02-05 00:10:13,263 - INFO - Log analysis completed successfully
+2026-02-05 00:10:13,264 - INFO - 127.0.0.1 - - [05/Feb/2026 00:10:13] "POST /analyze HTTP/1.1" 200 -
+2026-02-05 00:10:13,447 - INFO - Log file uploaded successfully
+2026-02-05 00:10:13,447 - INFO - Log analysis started
+2026-02-05 00:10:13,449 - INFO - Log analysis completed successfully
+2026-02-05 00:10:13,450 - INFO - 127.0.0.1 - - [05/Feb/2026 00:10:13] "POST /analyze HTTP/1.1" 200 -
+2026-02-05 00:10:13,656 - INFO - Log file uploaded successfully
+2026-02-05 00:10:13,657 - INFO - Log analysis started
+2026-02-05 00:10:13,663 - INFO - Log analysis completed successfully
+2026-02-05 00:10:13,663 - INFO - 127.0.0.1 - - [05/Feb/2026 00:10:13] "POST /analyze HTTP/1.1" 200 -
+2026-02-05 00:10:14,374 - INFO - Log file uploaded successfully
+2026-02-05 00:10:14,375 - INFO - Log analysis started
+2026-02-05 00:10:14,379 - INFO - Log analysis completed successfully
+2026-02-05 00:10:14,380 - INFO - 127.0.0.1 - - [05/Feb/2026 00:10:14] "POST /analyze HTTP/1.1" 200 -
+2026-02-05 00:10:14,381 - INFO - Log file uploaded successfully
+2026-02-05 00:10:14,381 - INFO - Log analysis started
+2026-02-05 00:10:14,383 - INFO - Log analysis completed successfully
+2026-02-05 00:10:14,383 - INFO - 127.0.0.1 - - [05/Feb/2026 00:10:14] "POST /analyze HTTP/1.1" 200 -
+2026-02-05 00:10:14,415 - INFO - Log file uploaded successfully
+2026-02-05 00:10:14,415 - INFO - Log analysis started
+2026-02-05 00:10:14,416 - INFO - Log analysis completed successfully
+2026-02-05 00:10:14,417 - INFO - 127.0.0.1 - - [05/Feb/2026 00:10:14] "POST /analyze HTTP/1.1" 200 -
+2026-03-03 21:15:10,515 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-03 21:15:10,515 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-03 21:15:10,520 - INFO -  * Restarting with stat
+2026-03-03 21:15:17,055 - WARNING -  * Debugger is active!
+2026-03-03 21:15:17,064 - INFO -  * Debugger PIN: 464-173-076
+2026-03-03 21:16:03,010 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-03 21:16:03,010 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-03 21:16:03,045 - INFO -  * Restarting with stat
+2026-03-03 21:16:03,926 - WARNING -  * Debugger is active!
+2026-03-03 21:16:03,932 - INFO -  * Debugger PIN: 464-173-076
+2026-03-07 11:50:01,183 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-07 11:50:01,183 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-07 11:50:01,186 - INFO -  * Restarting with stat
+2026-03-07 11:50:02,033 - WARNING -  * Debugger is active!
+2026-03-07 11:50:02,040 - INFO -  * Debugger PIN: 426-985-348
+2026-03-07 11:50:45,536 - INFO - 127.0.0.1 - - [07/Mar/2026 11:50:45] "GET / HTTP/1.1" 200 -
+2026-03-07 11:50:45,802 - INFO - 127.0.0.1 - - [07/Mar/2026 11:50:45] "GET /static/css/hacker.css HTTP/1.1" 200 -
+2026-03-07 11:50:46,202 - INFO - 127.0.0.1 - - [07/Mar/2026 11:50:46] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2026-03-07 11:50:46,382 - INFO - 127.0.0.1 - - [07/Mar/2026 11:50:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-07 11:51:05,497 - ERROR - Invalid file upload attempt
+2026-03-07 11:51:05,497 - INFO - 127.0.0.1 - - [07/Mar/2026 11:51:05] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2026-03-07 11:51:22,472 - INFO - Log file uploaded successfully
+2026-03-07 11:51:22,472 - INFO - Log analysis started
+2026-03-07 11:51:22,477 - INFO - Log analysis completed successfully
+2026-03-07 11:51:22,477 - INFO - 127.0.0.1 - - [07/Mar/2026 11:51:22] "POST /analyze HTTP/1.1" 200 -
+2026-03-07 11:52:44,951 - INFO - Log file uploaded successfully
+2026-03-07 11:52:44,951 - INFO - Log analysis started
+2026-03-07 11:52:44,959 - INFO - Log analysis completed successfully
+2026-03-07 11:52:44,960 - INFO - 127.0.0.1 - - [07/Mar/2026 11:52:44] "POST /analyze HTTP/1.1" 200 -
+2026-03-07 11:52:46,332 - INFO - Log file uploaded successfully
+2026-03-07 11:52:46,333 - INFO - Log analysis started
+2026-03-07 11:52:46,346 - INFO - Log analysis completed successfully
+2026-03-07 11:52:46,347 - INFO - 127.0.0.1 - - [07/Mar/2026 11:52:46] "POST /analyze HTTP/1.1" 200 -
+2026-03-07 11:59:53,204 - INFO - Log file uploaded successfully
+2026-03-07 11:59:53,205 - INFO - Log analysis started
+2026-03-07 11:59:53,206 - INFO - Log analysis completed successfully
+2026-03-07 11:59:53,207 - INFO - 127.0.0.1 - - [07/Mar/2026 11:59:53] "POST /analyze HTTP/1.1" 200 -
+2026-03-08 00:40:32,036 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-08 00:40:32,036 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-08 00:40:32,041 - INFO -  * Restarting with stat
+2026-03-08 00:40:33,574 - WARNING -  * Debugger is active!
+2026-03-08 00:40:33,586 - INFO -  * Debugger PIN: 426-985-348
+2026-03-08 00:41:24,127 - INFO - 127.0.0.1 - - [08/Mar/2026 00:41:24] "GET / HTTP/1.1" 200 -
+2026-03-08 00:41:24,397 - INFO - 127.0.0.1 - - [08/Mar/2026 00:41:24] "GET /static/css/hacker.css HTTP/1.1" 200 -
+2026-03-08 00:41:24,483 - INFO - 127.0.0.1 - - [08/Mar/2026 00:41:24] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2026-03-08 00:41:24,533 - INFO - 127.0.0.1 - - [08/Mar/2026 00:41:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-08 00:41:58,039 - INFO - 127.0.0.1 - - [08/Mar/2026 00:41:58] "POST /analyze HTTP/1.1" 200 -
+2026-03-08 00:42:00,192 - INFO - 127.0.0.1 - - [08/Mar/2026 00:42:00] "GET /analysis HTTP/1.1" 200 -
+2026-03-08 00:42:00,272 - INFO - 127.0.0.1 - - [08/Mar/2026 00:42:00] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 00:42:00,282 - INFO - 127.0.0.1 - - [08/Mar/2026 00:42:00] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 00:42:10,005 - INFO - 127.0.0.1 - - [08/Mar/2026 00:42:10] "GET / HTTP/1.1" 200 -
+2026-03-08 00:42:10,079 - INFO - 127.0.0.1 - - [08/Mar/2026 00:42:10] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 00:42:10,080 - INFO - 127.0.0.1 - - [08/Mar/2026 00:42:10] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 00:42:11,530 - INFO - 127.0.0.1 - - [08/Mar/2026 00:42:11] "GET /charts HTTP/1.1" 200 -
+2026-03-08 00:42:11,583 - INFO - 127.0.0.1 - - [08/Mar/2026 00:42:11] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 00:42:11,587 - INFO - 127.0.0.1 - - [08/Mar/2026 00:42:11] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 00:42:24,052 - INFO - 127.0.0.1 - - [08/Mar/2026 00:42:24] "GET / HTTP/1.1" 200 -
+2026-03-08 00:42:24,124 - INFO - 127.0.0.1 - - [08/Mar/2026 00:42:24] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 00:42:24,127 - INFO - 127.0.0.1 - - [08/Mar/2026 00:42:24] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 00:44:48,212 - INFO - 127.0.0.1 - - [08/Mar/2026 00:44:48] "POST /analyze HTTP/1.1" 200 -
+2026-03-08 00:44:49,961 - INFO - 127.0.0.1 - - [08/Mar/2026 00:44:49] "GET /analysis HTTP/1.1" 200 -
+2026-03-08 00:44:50,021 - INFO - 127.0.0.1 - - [08/Mar/2026 00:44:50] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 00:44:50,034 - INFO - 127.0.0.1 - - [08/Mar/2026 00:44:50] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 00:44:59,165 - INFO - 127.0.0.1 - - [08/Mar/2026 00:44:59] "GET /charts HTTP/1.1" 200 -
+2026-03-08 00:44:59,200 - INFO - 127.0.0.1 - - [08/Mar/2026 00:44:59] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 00:44:59,241 - INFO - 127.0.0.1 - - [08/Mar/2026 00:44:59] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 00:45:09,133 - INFO - 127.0.0.1 - - [08/Mar/2026 00:45:09] "GET /analysis HTTP/1.1" 200 -
+2026-03-08 00:45:09,180 - INFO - 127.0.0.1 - - [08/Mar/2026 00:45:09] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 00:45:09,201 - INFO - 127.0.0.1 - - [08/Mar/2026 00:45:09] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 00:49:03,826 - INFO - 127.0.0.1 - - [08/Mar/2026 00:49:03] "GET / HTTP/1.1" 200 -
+2026-03-08 00:49:03,891 - INFO - 127.0.0.1 - - [08/Mar/2026 00:49:03] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 00:49:03,900 - INFO - 127.0.0.1 - - [08/Mar/2026 00:49:03] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 00:49:26,701 - INFO - 127.0.0.1 - - [08/Mar/2026 00:49:26] "POST /analyze HTTP/1.1" 200 -
+2026-03-08 00:49:48,277 - INFO - 127.0.0.1 - - [08/Mar/2026 00:49:48] "GET /analysis HTTP/1.1" 200 -
+2026-03-08 00:49:48,356 - INFO - 127.0.0.1 - - [08/Mar/2026 00:49:48] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 00:49:48,364 - INFO - 127.0.0.1 - - [08/Mar/2026 00:49:48] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 00:49:56,382 - INFO - 127.0.0.1 - - [08/Mar/2026 00:49:56] "GET / HTTP/1.1" 200 -
+2026-03-08 00:49:56,462 - INFO - 127.0.0.1 - - [08/Mar/2026 00:49:56] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 00:49:56,475 - INFO - 127.0.0.1 - - [08/Mar/2026 00:49:56] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 00:49:58,108 - INFO - 127.0.0.1 - - [08/Mar/2026 00:49:58] "GET /charts HTTP/1.1" 200 -
+2026-03-08 00:49:58,168 - INFO - 127.0.0.1 - - [08/Mar/2026 00:49:58] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 00:49:58,176 - INFO - 127.0.0.1 - - [08/Mar/2026 00:49:58] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 00:50:01,460 - INFO - 127.0.0.1 - - [08/Mar/2026 00:50:01] "GET / HTTP/1.1" 200 -
+2026-03-08 00:50:01,524 - INFO - 127.0.0.1 - - [08/Mar/2026 00:50:01] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 00:50:01,528 - INFO - 127.0.0.1 - - [08/Mar/2026 00:50:01] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 00:50:10,014 - INFO - 127.0.0.1 - - [08/Mar/2026 00:50:10] "POST /analyze HTTP/1.1" 200 -
+2026-03-08 00:50:13,283 - INFO - 127.0.0.1 - - [08/Mar/2026 00:50:13] "GET /charts HTTP/1.1" 200 -
+2026-03-08 00:50:13,359 - INFO - 127.0.0.1 - - [08/Mar/2026 00:50:13] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 00:50:13,377 - INFO - 127.0.0.1 - - [08/Mar/2026 00:50:13] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 00:50:16,358 - INFO - 127.0.0.1 - - [08/Mar/2026 00:50:16] "GET / HTTP/1.1" 200 -
+2026-03-08 00:50:16,413 - INFO - 127.0.0.1 - - [08/Mar/2026 00:50:16] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 00:50:16,416 - INFO - 127.0.0.1 - - [08/Mar/2026 00:50:16] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 00:53:17,578 - INFO - 127.0.0.1 - - [08/Mar/2026 00:53:17] "GET / HTTP/1.1" 200 -
+2026-03-08 00:53:17,654 - INFO - 127.0.0.1 - - [08/Mar/2026 00:53:17] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 00:53:17,661 - INFO - 127.0.0.1 - - [08/Mar/2026 00:53:17] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 00:53:27,532 - INFO - 127.0.0.1 - - [08/Mar/2026 00:53:27] "GET /analysis HTTP/1.1" 200 -
+2026-03-08 00:53:27,599 - INFO - 127.0.0.1 - - [08/Mar/2026 00:53:27] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 00:53:38,143 - INFO - 127.0.0.1 - - [08/Mar/2026 00:53:38] "POST /analyze HTTP/1.1" 200 -
+2026-03-08 00:53:39,730 - INFO - 127.0.0.1 - - [08/Mar/2026 00:53:39] "GET /analysis HTTP/1.1" 200 -
+2026-03-08 00:53:39,770 - INFO - 127.0.0.1 - - [08/Mar/2026 00:53:39] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 00:53:47,749 - INFO - 127.0.0.1 - - [08/Mar/2026 00:53:47] "GET /charts HTTP/1.1" 200 -
+2026-03-08 00:53:47,797 - INFO - 127.0.0.1 - - [08/Mar/2026 00:53:47] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 00:53:47,830 - INFO - 127.0.0.1 - - [08/Mar/2026 00:53:47] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 00:53:51,076 - INFO - 127.0.0.1 - - [08/Mar/2026 00:53:51] "GET / HTTP/1.1" 200 -
+2026-03-08 00:53:51,146 - INFO - 127.0.0.1 - - [08/Mar/2026 00:53:51] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 00:53:51,147 - INFO - 127.0.0.1 - - [08/Mar/2026 00:53:51] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 00:54:41,299 - INFO - 127.0.0.1 - - [08/Mar/2026 00:54:41] "GET /analysis HTTP/1.1" 200 -
+2026-03-08 00:54:41,378 - INFO - 127.0.0.1 - - [08/Mar/2026 00:54:41] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 00:54:50,905 - INFO - 127.0.0.1 - - [08/Mar/2026 00:54:50] "GET /charts HTTP/1.1" 200 -
+2026-03-08 00:54:50,961 - INFO - 127.0.0.1 - - [08/Mar/2026 00:54:50] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 00:54:50,989 - INFO - 127.0.0.1 - - [08/Mar/2026 00:54:50] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 00:54:53,452 - INFO - 127.0.0.1 - - [08/Mar/2026 00:54:53] "GET / HTTP/1.1" 200 -
+2026-03-08 00:54:53,506 - INFO - 127.0.0.1 - - [08/Mar/2026 00:54:53] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 00:54:53,522 - INFO - 127.0.0.1 - - [08/Mar/2026 00:54:53] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 00:59:53,750 - INFO - 127.0.0.1 - - [08/Mar/2026 00:59:53] "GET / HTTP/1.1" 200 -
+2026-03-08 00:59:53,814 - INFO - 127.0.0.1 - - [08/Mar/2026 00:59:53] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 00:59:53,827 - INFO - 127.0.0.1 - - [08/Mar/2026 00:59:53] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 01:00:04,601 - INFO - 127.0.0.1 - - [08/Mar/2026 01:00:04] "POST /analyze HTTP/1.1" 200 -
+2026-03-08 01:00:06,598 - INFO - 127.0.0.1 - - [08/Mar/2026 01:00:06] "GET /charts HTTP/1.1" 200 -
+2026-03-08 01:00:06,646 - INFO - 127.0.0.1 - - [08/Mar/2026 01:00:06] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:01:25,840 - INFO - 127.0.0.1 - - [08/Mar/2026 01:01:25] "GET / HTTP/1.1" 200 -
+2026-03-08 01:01:25,914 - INFO - 127.0.0.1 - - [08/Mar/2026 01:01:25] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 01:01:25,916 - INFO - 127.0.0.1 - - [08/Mar/2026 01:01:25] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:01:35,273 - INFO - 127.0.0.1 - - [08/Mar/2026 01:01:35] "GET /charts HTTP/1.1" 200 -
+2026-03-08 01:01:35,347 - INFO - 127.0.0.1 - - [08/Mar/2026 01:01:35] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:01:40,471 - INFO - 127.0.0.1 - - [08/Mar/2026 01:01:40] "GET / HTTP/1.1" 200 -
+2026-03-08 01:01:40,529 - INFO - 127.0.0.1 - - [08/Mar/2026 01:01:40] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 01:01:40,539 - INFO - 127.0.0.1 - - [08/Mar/2026 01:01:40] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:01:41,923 - INFO - 127.0.0.1 - - [08/Mar/2026 01:01:41] "GET /analysis HTTP/1.1" 200 -
+2026-03-08 01:01:41,984 - INFO - 127.0.0.1 - - [08/Mar/2026 01:01:41] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:19:02,144 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-08 01:19:02,145 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-08 01:19:02,158 - INFO -  * Restarting with stat
+2026-03-08 01:19:03,213 - WARNING -  * Debugger is active!
+2026-03-08 01:19:03,220 - INFO -  * Debugger PIN: 426-985-348
+2026-03-08 01:19:19,417 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:19] "GET / HTTP/1.1" 200 -
+2026-03-08 01:19:19,737 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:19] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:19:19,791 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:19] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 01:19:19,869 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-08 01:19:28,633 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:28] "POST /analyze HTTP/1.1" 200 -
+2026-03-08 01:19:30,627 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:30] "GET /analysis HTTP/1.1" 200 -
+2026-03-08 01:19:30,689 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:30] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:19:34,475 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:34] "GET / HTTP/1.1" 200 -
+2026-03-08 01:19:34,532 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:34] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 01:19:34,545 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:34] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:19:36,037 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:36] "GET /analysis HTTP/1.1" 200 -
+2026-03-08 01:19:36,074 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:36] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:19:38,928 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:38] "GET / HTTP/1.1" 200 -
+2026-03-08 01:19:38,985 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:38] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 01:19:38,993 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:38] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:19:40,394 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:40] "GET /charts HTTP/1.1" 200 -
+2026-03-08 01:19:40,451 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:40] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:19:42,956 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:42] "GET / HTTP/1.1" 200 -
+2026-03-08 01:19:43,025 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:43] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:19:43,027 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:43] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 01:19:44,458 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:44] "GET /analysis HTTP/1.1" 200 -
+2026-03-08 01:19:44,517 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:44] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:19:49,141 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:49] "GET / HTTP/1.1" 200 -
+2026-03-08 01:19:49,204 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:49] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 01:19:49,208 - INFO - 127.0.0.1 - - [08/Mar/2026 01:19:49] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:20:30,207 - INFO - 127.0.0.1 - - [08/Mar/2026 01:20:30] "POST /analyze HTTP/1.1" 200 -
+2026-03-08 01:20:31,956 - INFO - 127.0.0.1 - - [08/Mar/2026 01:20:31] "GET /analysis HTTP/1.1" 200 -
+2026-03-08 01:20:32,005 - INFO - 127.0.0.1 - - [08/Mar/2026 01:20:32] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:22:29,469 - INFO - 127.0.0.1 - - [08/Mar/2026 01:22:29] "GET / HTTP/1.1" 200 -
+2026-03-08 01:22:29,551 - INFO - 127.0.0.1 - - [08/Mar/2026 01:22:29] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 01:22:29,560 - INFO - 127.0.0.1 - - [08/Mar/2026 01:22:29] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:22:48,070 - INFO - 127.0.0.1 - - [08/Mar/2026 01:22:48] "POST /analyze HTTP/1.1" 200 -
+2026-03-08 01:22:49,988 - INFO - 127.0.0.1 - - [08/Mar/2026 01:22:49] "GET /analysis HTTP/1.1" 200 -
+2026-03-08 01:22:50,062 - INFO - 127.0.0.1 - - [08/Mar/2026 01:22:50] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:22:56,140 - INFO - 127.0.0.1 - - [08/Mar/2026 01:22:56] "GET /charts HTTP/1.1" 200 -
+2026-03-08 01:22:56,198 - INFO - 127.0.0.1 - - [08/Mar/2026 01:22:56] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:23:10,568 - INFO - 127.0.0.1 - - [08/Mar/2026 01:23:10] "GET / HTTP/1.1" 200 -
+2026-03-08 01:23:10,643 - INFO - 127.0.0.1 - - [08/Mar/2026 01:23:10] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 01:23:10,644 - INFO - 127.0.0.1 - - [08/Mar/2026 01:23:10] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:23:51,029 - INFO - 127.0.0.1 - - [08/Mar/2026 01:23:51] "GET /analysis HTTP/1.1" 200 -
+2026-03-08 01:23:51,099 - INFO - 127.0.0.1 - - [08/Mar/2026 01:23:51] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:24:06,281 - INFO - 127.0.0.1 - - [08/Mar/2026 01:24:06] "GET / HTTP/1.1" 200 -
+2026-03-08 01:24:06,361 - INFO - 127.0.0.1 - - [08/Mar/2026 01:24:06] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 01:24:06,361 - INFO - 127.0.0.1 - - [08/Mar/2026 01:24:06] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:25:34,423 - INFO - 127.0.0.1 - - [08/Mar/2026 01:25:34] "GET /analysis HTTP/1.1" 200 -
+2026-03-08 01:25:34,484 - INFO - 127.0.0.1 - - [08/Mar/2026 01:25:34] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:35:50,997 - INFO - 127.0.0.1 - - [08/Mar/2026 01:35:50] "GET /analysis HTTP/1.1" 200 -
+2026-03-08 01:35:51,054 - INFO - 127.0.0.1 - - [08/Mar/2026 01:35:51] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:42:48,769 - INFO - 127.0.0.1 - - [08/Mar/2026 01:42:48] "GET /analysis HTTP/1.1" 200 -
+2026-03-08 01:42:48,830 - INFO - 127.0.0.1 - - [08/Mar/2026 01:42:48] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:54:54,762 - INFO - 127.0.0.1 - - [08/Mar/2026 01:54:54] "GET /analysis HTTP/1.1" 200 -
+2026-03-08 01:54:54,838 - INFO - 127.0.0.1 - - [08/Mar/2026 01:54:54] "GET /static/css/hacker.css HTTP/1.1" 200 -
+2026-03-08 01:55:00,031 - INFO - 127.0.0.1 - - [08/Mar/2026 01:55:00] "GET / HTTP/1.1" 200 -
+2026-03-08 01:55:00,096 - INFO - 127.0.0.1 - - [08/Mar/2026 01:55:00] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:55:00,116 - INFO - 127.0.0.1 - - [08/Mar/2026 01:55:00] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 01:57:35,050 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:35] "GET / HTTP/1.1" 200 -
+2026-03-08 01:57:35,114 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:35] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:57:35,117 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:35] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 01:57:36,278 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:36] "GET / HTTP/1.1" 200 -
+2026-03-08 01:57:36,349 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:36] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 01:57:36,353 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:36] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:57:36,487 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:36] "GET / HTTP/1.1" 200 -
+2026-03-08 01:57:36,550 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:36] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 01:57:36,554 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:36] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:57:36,715 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:36] "GET / HTTP/1.1" 200 -
+2026-03-08 01:57:36,772 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:36] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:57:36,786 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:36] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 01:57:36,893 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:36] "GET / HTTP/1.1" 200 -
+2026-03-08 01:57:36,969 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:36] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 01:57:36,972 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:36] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:57:37,095 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:37] "GET / HTTP/1.1" 200 -
+2026-03-08 01:57:37,146 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:37] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:57:37,148 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:37] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 01:57:37,309 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:37] "GET / HTTP/1.1" 200 -
+2026-03-08 01:57:37,372 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:37] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:57:37,374 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:37] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 01:57:37,483 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:37] "GET / HTTP/1.1" 200 -
+2026-03-08 01:57:37,549 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:37] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:57:37,552 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:37] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 01:57:37,703 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:37] "GET / HTTP/1.1" 200 -
+2026-03-08 01:57:37,768 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:37] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:57:37,770 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:37] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 01:57:39,341 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:39] "GET /analysis HTTP/1.1" 200 -
+2026-03-08 01:57:39,658 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:39] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 01:57:54,546 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:54] "GET /charts HTTP/1.1" 200 -
+2026-03-08 01:57:54,611 - INFO - 127.0.0.1 - - [08/Mar/2026 01:57:54] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 02:05:25,940 - INFO - 127.0.0.1 - - [08/Mar/2026 02:05:25] "GET / HTTP/1.1" 200 -
+2026-03-08 02:05:26,005 - INFO - 127.0.0.1 - - [08/Mar/2026 02:05:26] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 02:05:26,018 - INFO - 127.0.0.1 - - [08/Mar/2026 02:05:26] "GET /static/css/hacker.css HTTP/1.1" 200 -
+2026-03-08 02:06:05,726 - INFO - 127.0.0.1 - - [08/Mar/2026 02:06:05] "POST /analyze HTTP/1.1" 200 -
+2026-03-08 02:06:20,424 - INFO - 127.0.0.1 - - [08/Mar/2026 02:06:20] "GET /analysis HTTP/1.1" 200 -
+2026-03-08 02:06:20,499 - INFO - 127.0.0.1 - - [08/Mar/2026 02:06:20] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 02:07:01,111 - INFO - 127.0.0.1 - - [08/Mar/2026 02:07:01] "GET /charts HTTP/1.1" 200 -
+2026-03-08 02:07:01,173 - INFO - 127.0.0.1 - - [08/Mar/2026 02:07:01] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 02:15:39,546 - INFO - 127.0.0.1 - - [08/Mar/2026 02:15:39] "GET / HTTP/1.1" 200 -
+2026-03-08 02:15:39,607 - INFO - 127.0.0.1 - - [08/Mar/2026 02:15:39] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 02:15:39,623 - INFO - 127.0.0.1 - - [08/Mar/2026 02:15:39] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 02:15:53,890 - INFO - 127.0.0.1 - - [08/Mar/2026 02:15:53] "POST /analyze HTTP/1.1" 200 -
+2026-03-08 02:16:03,844 - INFO - 127.0.0.1 - - [08/Mar/2026 02:16:03] "GET /analysis HTTP/1.1" 200 -
+2026-03-08 02:16:03,907 - INFO - 127.0.0.1 - - [08/Mar/2026 02:16:03] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 02:16:13,759 - INFO - 127.0.0.1 - - [08/Mar/2026 02:16:13] "GET /charts HTTP/1.1" 200 -
+2026-03-08 02:16:13,830 - INFO - 127.0.0.1 - - [08/Mar/2026 02:16:13] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 02:19:23,379 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-08 02:19:23,379 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-08 02:19:23,382 - INFO -  * Restarting with stat
+2026-03-08 02:19:25,433 - WARNING -  * Debugger is active!
+2026-03-08 02:19:25,443 - INFO -  * Debugger PIN: 426-985-348
+2026-03-08 02:19:33,994 - INFO - 127.0.0.1 - - [08/Mar/2026 02:19:33] "GET / HTTP/1.1" 200 -
+2026-03-08 02:19:34,362 - INFO - 127.0.0.1 - - [08/Mar/2026 02:19:34] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 02:19:34,462 - INFO - 127.0.0.1 - - [08/Mar/2026 02:19:34] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 02:19:44,118 - INFO - 127.0.0.1 - - [08/Mar/2026 02:19:44] "POST /analyze HTTP/1.1" 200 -
+2026-03-08 02:19:45,452 - INFO - 127.0.0.1 - - [08/Mar/2026 02:19:45] "GET /analysis HTTP/1.1" 200 -
+2026-03-08 02:19:45,524 - INFO - 127.0.0.1 - - [08/Mar/2026 02:19:45] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 02:19:57,168 - INFO - 127.0.0.1 - - [08/Mar/2026 02:19:57] "GET /charts HTTP/1.1" 200 -
+2026-03-08 02:19:57,237 - INFO - 127.0.0.1 - - [08/Mar/2026 02:19:57] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-08 02:20:08,993 - INFO - 127.0.0.1 - - [08/Mar/2026 02:20:08] "GET / HTTP/1.1" 200 -
+2026-03-08 02:20:09,058 - INFO - 127.0.0.1 - - [08/Mar/2026 02:20:09] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-08 02:20:09,063 - INFO - 127.0.0.1 - - [08/Mar/2026 02:20:09] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-10 20:15:59,327 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-10 20:15:59,328 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-10 20:15:59,334 - INFO -  * Restarting with stat
+2026-03-10 20:16:00,504 - WARNING -  * Debugger is active!
+2026-03-10 20:16:00,511 - INFO -  * Debugger PIN: 464-173-076
+2026-03-10 20:18:57,177 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-10 20:18:57,177 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-10 20:18:57,180 - INFO -  * Restarting with stat
+2026-03-10 20:18:58,129 - WARNING -  * Debugger is active!
+2026-03-10 20:18:58,137 - INFO -  * Debugger PIN: 464-173-076
+2026-03-10 20:19:01,858 - INFO - 127.0.0.1 - - [10/Mar/2026 20:19:01] "GET / HTTP/1.1" 200 -
+2026-03-10 20:19:02,125 - INFO - 127.0.0.1 - - [10/Mar/2026 20:19:02] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-10 20:19:02,161 - INFO - 127.0.0.1 - - [10/Mar/2026 20:19:02] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-10 20:19:02,326 - INFO - 127.0.0.1 - - [10/Mar/2026 20:19:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-10 20:19:41,978 - INFO - 127.0.0.1 - - [10/Mar/2026 20:19:41] "POST /analyze HTTP/1.1" 200 -
+2026-03-10 20:19:44,371 - INFO - 127.0.0.1 - - [10/Mar/2026 20:19:44] "GET /analysis HTTP/1.1" 200 -
+2026-03-10 20:19:44,445 - INFO - 127.0.0.1 - - [10/Mar/2026 20:19:44] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-10 20:19:51,539 - INFO - 127.0.0.1 - - [10/Mar/2026 20:19:51] "GET /charts HTTP/1.1" 200 -
+2026-03-10 20:19:51,611 - INFO - 127.0.0.1 - - [10/Mar/2026 20:19:51] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-10 20:25:22,921 - INFO - 127.0.0.1 - - [10/Mar/2026 20:25:22] "GET / HTTP/1.1" 200 -
+2026-03-10 20:25:23,012 - INFO - 127.0.0.1 - - [10/Mar/2026 20:25:23] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-10 20:25:23,063 - INFO - 127.0.0.1 - - [10/Mar/2026 20:25:23] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-10 20:25:35,246 - INFO - 127.0.0.1 - - [10/Mar/2026 20:25:35] "POST /analyze HTTP/1.1" 200 -
+2026-03-10 20:25:36,848 - INFO - 127.0.0.1 - - [10/Mar/2026 20:25:36] "GET /analysis HTTP/1.1" 200 -
+2026-03-10 20:25:36,921 - INFO - 127.0.0.1 - - [10/Mar/2026 20:25:36] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-10 20:25:42,717 - INFO - 127.0.0.1 - - [10/Mar/2026 20:25:42] "GET /charts HTTP/1.1" 200 -
+2026-03-10 20:25:42,762 - INFO - 127.0.0.1 - - [10/Mar/2026 20:25:42] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-10 20:26:32,918 - INFO - 127.0.0.1 - - [10/Mar/2026 20:26:32] "GET / HTTP/1.1" 200 -
+2026-03-10 20:26:32,994 - INFO - 127.0.0.1 - - [10/Mar/2026 20:26:32] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-10 20:26:33,004 - INFO - 127.0.0.1 - - [10/Mar/2026 20:26:33] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-10 20:26:35,846 - INFO - 127.0.0.1 - - [10/Mar/2026 20:26:35] "GET /analysis HTTP/1.1" 200 -
+2026-03-10 20:26:35,911 - INFO - 127.0.0.1 - - [10/Mar/2026 20:26:35] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-10 20:55:30,731 - INFO - 127.0.0.1 - - [10/Mar/2026 20:55:30] "GET / HTTP/1.1" 200 -
+2026-03-10 20:55:30,828 - INFO - 127.0.0.1 - - [10/Mar/2026 20:55:30] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-10 20:55:30,843 - INFO - 127.0.0.1 - - [10/Mar/2026 20:55:30] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-10 20:55:46,436 - INFO - 127.0.0.1 - - [10/Mar/2026 20:55:46] "POST /analyze HTTP/1.1" 200 -
+2026-03-10 20:55:51,813 - INFO - 127.0.0.1 - - [10/Mar/2026 20:55:51] "GET /analysis HTTP/1.1" 200 -
+2026-03-10 20:55:51,898 - INFO - 127.0.0.1 - - [10/Mar/2026 20:55:51] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-10 20:57:10,827 - INFO - 127.0.0.1 - - [10/Mar/2026 20:57:10] "GET /charts HTTP/1.1" 200 -
+2026-03-10 20:57:10,917 - INFO - 127.0.0.1 - - [10/Mar/2026 20:57:10] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -
+2026-03-10 20:57:30,822 - INFO - 127.0.0.1 - - [10/Mar/2026 20:57:30] "GET / HTTP/1.1" 200 -
+2026-03-10 20:57:30,892 - INFO - 127.0.0.1 - - [10/Mar/2026 20:57:30] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-03-10 20:57:30,895 - INFO - 127.0.0.1 - - [10/Mar/2026 20:57:30] "[36mGET /static/css/hacker.css HTTP/1.1[0m" 304 -

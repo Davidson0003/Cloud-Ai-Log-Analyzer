@@ -1,0 +1,1269 @@
+2025-01-01T00:00:00 [ERROR] (service-1) Database connection failed |
+request_id=24913 2025-01-01T00:00:05 [WARNING] (service-4) Cache miss
+spike detected | request_id=80088 2025-01-01T00:00:10 [WARNING]
+(service-1) Cache miss spike detected | request_id=54636
+2025-01-01T00:00:15 [WARNING] (service-3) Cache miss spike detected |
+request_id=84918 2025-01-01T00:00:20 [WARNING] (service-2) Temporary
+network latency detected | request_id=90122 2025-01-01T00:00:25 [ERROR]
+(service-5) File not found | request_id=23292 2025-01-01T00:00:30 [INFO]
+(service-5) Database connection established | request_id=11825
+2025-01-01T00:00:35 [WARNING] (service-2) Configuration value missing,
+using default | request_id=56045 2025-01-01T00:00:40 [ERROR] (service-1)
+Timeout while calling external API | request_id=20956
+2025-01-01T00:00:45 [ERROR] (service-4) File not found |
+request_id=13175 2025-01-01T00:00:50 [ERROR] (service-4) Database
+connection failed | request_id=83420 2025-01-01T00:00:55 [ERROR]
+(service-1) Timeout while calling external API | request_id=93935
+2025-01-01T00:01:00 [ERROR] (service-2) Service dependency unavailable |
+request_id=54840 2025-01-01T00:01:05 [ERROR] (service-1) Service
+dependency unavailable | request_id=35977 2025-01-01T00:01:10 [WARNING]
+(service-2) Deprecated API used | request_id=46796 2025-01-01T00:01:15
+[ERROR] (service-3) Null pointer exception | request_id=33643
+2025-01-01T00:01:20 [ERROR] (service-3) Failed to write to disk |
+request_id=58200 2025-01-01T00:01:25 [ERROR] (service-3) Timeout while
+calling external API | request_id=98106 2025-01-01T00:01:30 [ERROR]
+(service-2) Invalid configuration format | request_id=56182
+2025-01-01T00:01:35 [WARNING] (service-3) Configuration value missing,
+using default | request_id=72710 2025-01-01T00:01:40 [INFO] (service-2)
+User login successful | request_id=65993 2025-01-01T00:01:45 [INFO]
+(service-5) Service started | request_id=66307 2025-01-01T00:01:50
+[WARNING] (service-2) Token nearing expiration | request_id=43210
+2025-01-01T00:01:55 [ERROR] (service-5) File not found |
+request_id=59512 2025-01-01T00:02:00 [ERROR] (service-5) Authentication
+failed | request_id=95561 2025-01-01T00:02:05 [ERROR] (service-4) File
+not found | request_id=15815 2025-01-01T00:02:10 [INFO] (service-4)
+Configuration loaded | request_id=69553 2025-01-01T00:02:15 [WARNING]
+(service-2) Disk usage above 80% | request_id=38667 2025-01-01T00:02:20
+[WARNING] (service-3) API response slower than expected |
+request_id=35000 2025-01-01T00:02:25 [INFO] (service-1) User login
+successful | request_id=62368 2025-01-01T00:02:30 [INFO] (service-2)
+User login successful | request_id=42009 2025-01-01T00:02:35 [INFO]
+(service-1) Scheduled job executed | request_id=14079
+2025-01-01T00:02:40 [INFO] (service-1) Metrics reported |
+request_id=71214 2025-01-01T00:02:45 [ERROR] (service-4) File not found
+| request_id=46540 2025-01-01T00:02:50 [WARNING] (service-1) Disk usage
+above 80% | request_id=20361 2025-01-01T00:02:55 [INFO] (service-2)
+Configuration loaded | request_id=29017 2025-01-01T00:03:00 [ERROR]
+(service-3) Database connection failed | request_id=41568
+2025-01-01T00:03:05 [WARNING] (service-4) Disk usage above 80% |
+request_id=88918 2025-01-01T00:03:10 [WARNING] (service-1) Deprecated
+API used | request_id=64178 2025-01-01T00:03:15 [WARNING] (service-3)
+Configuration value missing, using default | request_id=35811
+2025-01-01T00:03:20 [INFO] (service-2) Database connection established |
+request_id=97953 2025-01-01T00:03:25 [ERROR] (service-3) Invalid
+configuration format | request_id=39167 2025-01-01T00:03:30 [ERROR]
+(service-2) Null pointer exception | request_id=39286
+2025-01-01T00:03:35 [WARNING] (service-3) Configuration value missing,
+using default | request_id=77188 2025-01-01T00:03:40 [INFO] (service-3)
+User login successful | request_id=57203 2025-01-01T00:03:45 [ERROR]
+(service-4) Unhandled exception occurred | request_id=36701
+2025-01-01T00:03:50 [INFO] (service-5) Session validated |
+request_id=74928 2025-01-01T00:03:55 [INFO] (service-4) User login
+successful | request_id=99749 2025-01-01T00:04:00 [INFO] (service-5)
+Scheduled job executed | request_id=21300 2025-01-01T00:04:05 [ERROR]
+(service-1) File not found | request_id=89299 2025-01-01T00:04:10 [INFO]
+(service-1) Service started | request_id=90586 2025-01-01T00:04:15
+[WARNING] (service-5) Retrying failed request | request_id=47429
+2025-01-01T00:04:20 [WARNING] (service-3) Token nearing expiration |
+request_id=89308 2025-01-01T00:04:25 [WARNING] (service-3) Configuration
+value missing, using default | request_id=78134 2025-01-01T00:04:30
+[WARNING] (service-3) Disk usage above 80% | request_id=79805
+2025-01-01T00:04:35 [WARNING] (service-4) High memory usage detected |
+request_id=87663 2025-01-01T00:04:40 [ERROR] (service-2) Invalid
+configuration format | request_id=14098 2025-01-01T00:04:45 [INFO]
+(service-3) Configuration loaded | request_id=18555 2025-01-01T00:04:50
+[INFO] (service-3) Scheduled job executed | request_id=81360
+2025-01-01T00:04:55 [WARNING] (service-5) High memory usage detected |
+request_id=98543 2025-01-01T00:05:00 [INFO] (service-2) Database
+connection established | request_id=12928 2025-01-01T00:05:05 [INFO]
+(service-3) Service started | request_id=91362 2025-01-01T00:05:10
+[ERROR] (service-2) Timeout while calling external API |
+request_id=71908 2025-01-01T00:05:15 [ERROR] (service-3) Failed to write
+to disk | request_id=52798 2025-01-01T00:05:20 [INFO] (service-1) File
+processed successfully | request_id=71089 2025-01-01T00:05:25 [INFO]
+(service-2) User login successful | request_id=64702 2025-01-01T00:05:30
+[INFO] (service-5) Database connection established | request_id=81168
+2025-01-01T00:05:35 [ERROR] (service-4) Null pointer exception |
+request_id=13022 2025-01-01T00:05:40 [WARNING] (service-1) Retrying
+failed request | request_id=51894 2025-01-01T00:05:45 [ERROR]
+(service-1) Failed to write to disk | request_id=69248
+2025-01-01T00:05:50 [WARNING] (service-4) High memory usage detected |
+request_id=99444 2025-01-01T00:05:55 [ERROR] (service-5) Database
+connection failed | request_id=25835 2025-01-01T00:06:00 [ERROR]
+(service-4) Database connection failed | request_id=48533
+2025-01-01T00:06:05 [INFO] (service-4) Database connection established |
+request_id=74676 2025-01-01T00:06:10 [WARNING] (service-3) API response
+slower than expected | request_id=82340 2025-01-01T00:06:15 [WARNING]
+(service-3) High memory usage detected | request_id=12244
+2025-01-01T00:06:20 [ERROR] (service-3) Failed to write to disk |
+request_id=12717 2025-01-01T00:06:25 [ERROR] (service-2) Service
+dependency unavailable | request_id=96471 2025-01-01T00:06:30 [INFO]
+(service-5) Health check passed | request_id=45877 2025-01-01T00:06:35
+[ERROR] (service-4) Service dependency unavailable | request_id=32924
+2025-01-01T00:06:40 [ERROR] (service-4) Invalid configuration format |
+request_id=69331 2025-01-01T00:06:45 [WARNING] (service-5) Queue length
+growing | request_id=17554 2025-01-01T00:06:50 [INFO] (service-2)
+Metrics reported | request_id=74395 2025-01-01T00:06:55 [WARNING]
+(service-1) Deprecated API used | request_id=50885 2025-01-01T00:07:00
+[ERROR] (service-4) Timeout while calling external API |
+request_id=19900 2025-01-01T00:07:05 [INFO] (service-5) Scheduled job
+executed | request_id=37174 2025-01-01T00:07:10 [ERROR] (service-3)
+Invalid configuration format | request_id=45612 2025-01-01T00:07:15
+[ERROR] (service-3) Database connection failed | request_id=28886
+2025-01-01T00:07:20 [ERROR] (service-4) File not found |
+request_id=89017 2025-01-01T00:07:25 [ERROR] (service-5) Invalid
+configuration format | request_id=91872 2025-01-01T00:07:30 [INFO]
+(service-3) Database connection established | request_id=29204
+2025-01-01T00:07:35 [INFO] (service-2) Configuration loaded |
+request_id=95273 2025-01-01T00:07:40 [INFO] (service-3) Scheduled job
+executed | request_id=60838 2025-01-01T00:07:45 [ERROR] (service-2)
+Invalid configuration format | request_id=90999 2025-01-01T00:07:50
+[WARNING] (service-5) Queue length growing | request_id=12041
+2025-01-01T00:07:55 [ERROR] (service-2) Null pointer exception |
+request_id=84344 2025-01-01T00:08:00 [WARNING] (service-1) API response
+slower than expected | request_id=10218 2025-01-01T00:08:05 [INFO]
+(service-1) Cache refreshed | request_id=53301 2025-01-01T00:08:10
+[WARNING] (service-2) High memory usage detected | request_id=66186
+2025-01-01T00:08:15 [INFO] (service-5) Metrics reported |
+request_id=45237 2025-01-01T00:08:20 [WARNING] (service-3) API response
+slower than expected | request_id=79813 2025-01-01T00:08:25 [ERROR]
+(service-4) Unhandled exception occurred | request_id=64786
+2025-01-01T00:08:30 [INFO] (service-3) Cache refreshed |
+request_id=55604 2025-01-01T00:08:35 [WARNING] (service-5) Disk usage
+above 80% | request_id=70056 2025-01-01T00:08:40 [WARNING] (service-1)
+Retrying failed request | request_id=93029 2025-01-01T00:08:45 [ERROR]
+(service-2) File not found | request_id=52822 2025-01-01T00:08:50
+[WARNING] (service-4) High memory usage detected | request_id=51443
+2025-01-01T00:08:55 [WARNING] (service-2) Token nearing expiration |
+request_id=29565 2025-01-01T00:09:00 [ERROR] (service-1) Invalid
+configuration format | request_id=63996 2025-01-01T00:09:05 [ERROR]
+(service-4) Database connection failed | request_id=49375
+2025-01-01T00:09:10 [INFO] (service-3) Database connection established |
+request_id=85309 2025-01-01T00:09:15 [ERROR] (service-3) Database
+connection failed | request_id=19149 2025-01-01T00:09:20 [WARNING]
+(service-5) Queue length growing | request_id=50480 2025-01-01T00:09:25
+[WARNING] (service-5) Cache miss spike detected | request_id=62969
+2025-01-01T00:09:30 [INFO] (service-5) Metrics reported |
+request_id=13373 2025-01-01T00:09:35 [INFO] (service-2) Scheduled job
+executed | request_id=39186 2025-01-01T00:09:40 [ERROR] (service-4)
+Unhandled exception occurred | request_id=55200 2025-01-01T00:09:45
+[WARNING] (service-5) Configuration value missing, using default |
+request_id=55344 2025-01-01T00:09:50 [WARNING] (service-3) Configuration
+value missing, using default | request_id=60352 2025-01-01T00:09:55
+[WARNING] (service-5) Temporary network latency detected |
+request_id=58820 2025-01-01T00:10:00 [INFO] (service-1) Service started
+| request_id=16962 2025-01-01T00:10:05 [INFO] (service-4) File processed
+successfully | request_id=47574 2025-01-01T00:10:10 [WARNING]
+(service-3) Queue length growing | request_id=81862 2025-01-01T00:10:15
+[ERROR] (service-4) File not found | request_id=11718
+2025-01-01T00:10:20 [INFO] (service-2) Session validated |
+request_id=46570 2025-01-01T00:10:25 [WARNING] (service-4) Cache miss
+spike detected | request_id=53600 2025-01-01T00:10:30 [ERROR]
+(service-5) Service dependency unavailable | request_id=12909
+2025-01-01T00:10:35 [INFO] (service-1) Service started |
+request_id=37675 2025-01-01T00:10:40 [ERROR] (service-2) File not found
+| request_id=64802 2025-01-01T00:10:45 [ERROR] (service-5) Null pointer
+exception | request_id=72764 2025-01-01T00:10:50 [WARNING] (service-1)
+Token nearing expiration | request_id=33327 2025-01-01T00:10:55 [ERROR]
+(service-1) Null pointer exception | request_id=20905
+2025-01-01T00:11:00 [INFO] (service-2) Cache refreshed |
+request_id=90748 2025-01-01T00:11:05 [WARNING] (service-3) Queue length
+growing | request_id=35575 2025-01-01T00:11:10 [ERROR] (service-4)
+Database connection failed | request_id=86827 2025-01-01T00:11:15
+[ERROR] (service-3) Null pointer exception | request_id=22807
+2025-01-01T00:11:20 [WARNING] (service-1) API response slower than
+expected | request_id=27747 2025-01-01T00:11:25 [WARNING] (service-1)
+API response slower than expected | request_id=40353 2025-01-01T00:11:30
+[ERROR] (service-3) Null pointer exception | request_id=22213
+2025-01-01T00:11:35 [INFO] (service-3) Session validated |
+request_id=70894 2025-01-01T00:11:40 [WARNING] (service-1) Temporary
+network latency detected | request_id=91956 2025-01-01T00:11:45 [INFO]
+(service-5) User login successful | request_id=50194 2025-01-01T00:11:50
+[INFO] (service-5) Database connection established | request_id=52994
+2025-01-01T00:11:55 [WARNING] (service-5) Configuration value missing,
+using default | request_id=56878 2025-01-01T00:12:00 [ERROR] (service-3)
+Timeout while calling external API | request_id=82847
+2025-01-01T00:12:05 [WARNING] (service-5) Retrying failed request |
+request_id=76425 2025-01-01T00:12:10 [WARNING] (service-4) Disk usage
+above 80% | request_id=59501 2025-01-01T00:12:15 [ERROR] (service-1)
+Database connection failed | request_id=62677 2025-01-01T00:12:20 [INFO]
+(service-4) Scheduled job executed | request_id=62919
+2025-01-01T00:12:25 [INFO] (service-3) Database connection established |
+request_id=40750 2025-01-01T00:12:30 [ERROR] (service-2) Permission
+denied | request_id=88063 2025-01-01T00:12:35 [ERROR] (service-2) Failed
+to write to disk | request_id=30015 2025-01-01T00:12:40 [INFO]
+(service-3) Scheduled job executed | request_id=23260
+2025-01-01T00:12:45 [INFO] (service-3) Session validated |
+request_id=65593 2025-01-01T00:12:50 [WARNING] (service-5) Disk usage
+above 80% | request_id=28650 2025-01-01T00:12:55 [INFO] (service-3) User
+login successful | request_id=89572 2025-01-01T00:13:00 [WARNING]
+(service-3) Token nearing expiration | request_id=13175
+2025-01-01T00:13:05 [INFO] (service-2) Scheduled job executed |
+request_id=32549 2025-01-01T00:13:10 [INFO] (service-5) Health check
+passed | request_id=82192 2025-01-01T00:13:15 [INFO] (service-2) Health
+check passed | request_id=79264 2025-01-01T00:13:20 [INFO] (service-2)
+Session validated | request_id=41328 2025-01-01T00:13:25 [WARNING]
+(service-3) Configuration value missing, using default |
+request_id=93615 2025-01-01T00:13:30 [WARNING] (service-3) Token nearing
+expiration | request_id=92206 2025-01-01T00:13:35 [WARNING] (service-3)
+API response slower than expected | request_id=44378 2025-01-01T00:13:40
+[INFO] (service-2) Health check passed | request_id=99429
+2025-01-01T00:13:45 [ERROR] (service-5) File not found |
+request_id=14664 2025-01-01T00:13:50 [WARNING] (service-1) Queue length
+growing | request_id=33355 2025-01-01T00:13:55 [ERROR] (service-4)
+Authentication failed | request_id=14997 2025-01-01T00:14:00 [ERROR]
+(service-2) Authentication failed | request_id=74849 2025-01-01T00:14:05
+[ERROR] (service-4) Authentication failed | request_id=18054
+2025-01-01T00:14:10 [ERROR] (service-5) Timeout while calling external
+API | request_id=43003 2025-01-01T00:14:15 [WARNING] (service-5) Cache
+miss spike detected | request_id=85219 2025-01-01T00:14:20 [ERROR]
+(service-2) Failed to write to disk | request_id=62742
+2025-01-01T00:14:25 [ERROR] (service-3) Failed to write to disk |
+request_id=82287 2025-01-01T00:14:30 [WARNING] (service-5) Cache miss
+spike detected | request_id=65343 2025-01-01T00:14:35 [WARNING]
+(service-4) Disk usage above 80% | request_id=78516 2025-01-01T00:14:40
+[INFO] (service-5) Service started | request_id=75688
+2025-01-01T00:14:45 [WARNING] (service-2) Cache miss spike detected |
+request_id=74406 2025-01-01T00:14:50 [INFO] (service-2) Configuration
+loaded | request_id=76035 2025-01-01T00:14:55 [ERROR] (service-3) Failed
+to write to disk | request_id=54895 2025-01-01T00:15:00 [ERROR]
+(service-3) Invalid configuration format | request_id=41557
+2025-01-01T00:15:05 [ERROR] (service-4) Service dependency unavailable |
+request_id=41222 2025-01-01T00:15:10 [ERROR] (service-1) Permission
+denied | request_id=62286 2025-01-01T00:15:15 [ERROR] (service-1)
+Authentication failed | request_id=66015 2025-01-01T00:15:20 [INFO]
+(service-2) User login successful | request_id=12320 2025-01-01T00:15:25
+[INFO] (service-2) Scheduled job executed | request_id=89690
+2025-01-01T00:15:30 [ERROR] (service-4) Authentication failed |
+request_id=59331 2025-01-01T00:15:35 [INFO] (service-1) Service started
+| request_id=80723 2025-01-01T00:15:40 [INFO] (service-1) User login
+successful | request_id=86719 2025-01-01T00:15:45 [WARNING] (service-4)
+High memory usage detected | request_id=69539 2025-01-01T00:15:50
+[WARNING] (service-3) Disk usage above 80% | request_id=45680
+2025-01-01T00:15:55 [WARNING] (service-5) Queue length growing |
+request_id=14158 2025-01-01T00:16:00 [INFO] (service-2) Configuration
+loaded | request_id=55246 2025-01-01T00:16:05 [INFO] (service-4)
+Database connection established | request_id=59244 2025-01-01T00:16:10
+[INFO] (service-4) Database connection established | request_id=94393
+2025-01-01T00:16:15 [ERROR] (service-5) Invalid configuration format |
+request_id=97856 2025-01-01T00:16:20 [WARNING] (service-2) Retrying
+failed request | request_id=14330 2025-01-01T00:16:25 [ERROR]
+(service-3) Database connection failed | request_id=86226
+2025-01-01T00:16:30 [WARNING] (service-1) Temporary network latency
+detected | request_id=70337 2025-01-01T00:16:35 [WARNING] (service-1)
+Temporary network latency detected | request_id=38911
+2025-01-01T00:16:40 [INFO] (service-3) Session validated |
+request_id=52800 2025-01-01T00:16:45 [INFO] (service-5) Cache refreshed
+| request_id=10150 2025-01-01T00:16:50 [WARNING] (service-5)
+Configuration value missing, using default | request_id=20023
+2025-01-01T00:16:55 [ERROR] (service-2) Permission denied |
+request_id=65617 2025-01-01T00:17:00 [INFO] (service-3) Session
+validated | request_id=49445 2025-01-01T00:17:05 [ERROR] (service-5)
+Invalid configuration format | request_id=94925 2025-01-01T00:17:10
+[INFO] (service-2) Metrics reported | request_id=89637
+2025-01-01T00:17:15 [WARNING] (service-4) Cache miss spike detected |
+request_id=96614 2025-01-01T00:17:20 [ERROR] (service-2) Failed to write
+to disk | request_id=63450 2025-01-01T00:17:25 [WARNING] (service-5)
+Temporary network latency detected | request_id=43559
+2025-01-01T00:17:30 [WARNING] (service-4) Configuration value missing,
+using default | request_id=93593 2025-01-01T00:17:35 [WARNING]
+(service-5) Configuration value missing, using default |
+request_id=89043 2025-01-01T00:17:40 [INFO] (service-3) User login
+successful | request_id=97297 2025-01-01T00:17:45 [INFO] (service-4)
+Configuration loaded | request_id=39316 2025-01-01T00:17:50 [ERROR]
+(service-2) Invalid configuration format | request_id=78893
+2025-01-01T00:17:55 [WARNING] (service-2) Configuration value missing,
+using default | request_id=70637 2025-01-01T00:18:00 [INFO] (service-1)
+Scheduled job executed | request_id=79409 2025-01-01T00:18:05 [INFO]
+(service-2) Health check passed | request_id=68574 2025-01-01T00:18:10
+[INFO] (service-5) Service started | request_id=21591
+2025-01-01T00:18:15 [INFO] (service-1) User login successful |
+request_id=40134 2025-01-01T00:18:20 [ERROR] (service-3) Authentication
+failed | request_id=13338 2025-01-01T00:18:25 [INFO] (service-4) Metrics
+reported | request_id=51615 2025-01-01T00:18:30 [ERROR] (service-1)
+Unhandled exception occurred | request_id=82256 2025-01-01T00:18:35
+[WARNING] (service-5) Cache miss spike detected | request_id=93866
+2025-01-01T00:18:40 [ERROR] (service-4) Unhandled exception occurred |
+request_id=56901 2025-01-01T00:18:45 [WARNING] (service-1) Deprecated
+API used | request_id=19580 2025-01-01T00:18:50 [ERROR] (service-3)
+Permission denied | request_id=23186 2025-01-01T00:18:55 [WARNING]
+(service-5) High memory usage detected | request_id=65631
+2025-01-01T00:19:00 [INFO] (service-3) Health check passed |
+request_id=69917 2025-01-01T00:19:05 [ERROR] (service-4) Unhandled
+exception occurred | request_id=10664 2025-01-01T00:19:10 [WARNING]
+(service-4) Deprecated API used | request_id=92749 2025-01-01T00:19:15
+[INFO] (service-4) Database connection established | request_id=63262
+2025-01-01T00:19:20 [ERROR] (service-1) Null pointer exception |
+request_id=17927 2025-01-01T00:19:25 [ERROR] (service-4) Failed to write
+to disk | request_id=30672 2025-01-01T00:19:30 [WARNING] (service-3)
+Queue length growing | request_id=43401 2025-01-01T00:19:35 [ERROR]
+(service-2) Service dependency unavailable | request_id=50280
+2025-01-01T00:19:40 [WARNING] (service-1) API response slower than
+expected | request_id=15974 2025-01-01T00:19:45 [WARNING] (service-2)
+Cache miss spike detected | request_id=57095 2025-01-01T00:19:50
+[WARNING] (service-5) Deprecated API used | request_id=73173
+2025-01-01T00:19:55 [WARNING] (service-3) Retrying failed request |
+request_id=61980 2025-01-01T00:20:00 [ERROR] (service-3) Service
+dependency unavailable | request_id=93831 2025-01-01T00:20:05 [INFO]
+(service-5) Health check passed | request_id=63789 2025-01-01T00:20:10
+[INFO] (service-4) Service started | request_id=55329
+2025-01-01T00:20:15 [ERROR] (service-2) Unhandled exception occurred |
+request_id=76744 2025-01-01T00:20:20 [INFO] (service-1) Metrics reported
+| request_id=76170 2025-01-01T00:20:25 [INFO] (service-4) Database
+connection established | request_id=94988 2025-01-01T00:20:30 [ERROR]
+(service-4) File not found | request_id=42947 2025-01-01T00:20:35 [INFO]
+(service-3) Service started | request_id=22608 2025-01-01T00:20:40
+[ERROR] (service-4) Unhandled exception occurred | request_id=92631
+2025-01-01T00:20:45 [WARNING] (service-2) Cache miss spike detected |
+request_id=11676 2025-01-01T00:20:50 [INFO] (service-1) File processed
+successfully | request_id=79384 2025-01-01T00:20:55 [ERROR] (service-5)
+Database connection failed | request_id=64778 2025-01-01T00:21:00
+[ERROR] (service-5) Invalid configuration format | request_id=59451
+2025-01-01T00:21:05 [ERROR] (service-2) Authentication failed |
+request_id=90085 2025-01-01T00:21:10 [WARNING] (service-5) High memory
+usage detected | request_id=34831 2025-01-01T00:21:15 [INFO] (service-1)
+Scheduled job executed | request_id=37571 2025-01-01T00:21:20 [ERROR]
+(service-5) Null pointer exception | request_id=69596
+2025-01-01T00:21:25 [ERROR] (service-5) Authentication failed |
+request_id=49884 2025-01-01T00:21:30 [WARNING] (service-4) API response
+slower than expected | request_id=76268 2025-01-01T00:21:35 [WARNING]
+(service-5) API response slower than expected | request_id=61378
+2025-01-01T00:21:40 [WARNING] (service-2) Deprecated API used |
+request_id=35188 2025-01-01T00:21:45 [ERROR] (service-5) Service
+dependency unavailable | request_id=37262 2025-01-01T00:21:50 [INFO]
+(service-4) Session validated | request_id=46876 2025-01-01T00:21:55
+[ERROR] (service-1) Failed to write to disk | request_id=79597
+2025-01-01T00:22:00 [WARNING] (service-2) Token nearing expiration |
+request_id=28104 2025-01-01T00:22:05 [INFO] (service-2) Scheduled job
+executed | request_id=15672 2025-01-01T00:22:10 [WARNING] (service-5)
+Deprecated API used | request_id=40623 2025-01-01T00:22:15 [INFO]
+(service-2) Database connection established | request_id=38128
+2025-01-01T00:22:20 [INFO] (service-2) File processed successfully |
+request_id=66811 2025-01-01T00:22:25 [INFO] (service-4) Scheduled job
+executed | request_id=65767 2025-01-01T00:22:30 [ERROR] (service-5) Null
+pointer exception | request_id=37522 2025-01-01T00:22:35 [ERROR]
+(service-3) Null pointer exception | request_id=74993
+2025-01-01T00:22:40 [INFO] (service-4) Session validated |
+request_id=60081 2025-01-01T00:22:45 [WARNING] (service-2) Cache miss
+spike detected | request_id=64913 2025-01-01T00:22:50 [INFO] (service-3)
+File processed successfully | request_id=25989 2025-01-01T00:22:55
+[INFO] (service-4) Scheduled job executed | request_id=69670
+2025-01-01T00:23:00 [WARNING] (service-5) API response slower than
+expected | request_id=96030 2025-01-01T00:23:05 [WARNING] (service-5)
+Cache miss spike detected | request_id=86894 2025-01-01T00:23:10
+[WARNING] (service-2) Retrying failed request | request_id=21233
+2025-01-01T00:23:15 [ERROR] (service-5) Timeout while calling external
+API | request_id=28248 2025-01-01T00:23:20 [WARNING] (service-1) Cache
+miss spike detected | request_id=41666 2025-01-01T00:23:25 [ERROR]
+(service-3) Failed to write to disk | request_id=78703
+2025-01-01T00:23:30 [INFO] (service-4) Cache refreshed |
+request_id=13089 2025-01-01T00:23:35 [ERROR] (service-1) Null pointer
+exception | request_id=54426 2025-01-01T00:23:40 [INFO] (service-2)
+Database connection established | request_id=83234 2025-01-01T00:23:45
+[WARNING] (service-1) Queue length growing | request_id=13659
+2025-01-01T00:23:50 [ERROR] (service-4) Unhandled exception occurred |
+request_id=87585 2025-01-01T00:23:55 [WARNING] (service-1) Temporary
+network latency detected | request_id=83611 2025-01-01T00:24:00 [ERROR]
+(service-2) Timeout while calling external API | request_id=67688
+2025-01-01T00:24:05 [WARNING] (service-3) Cache miss spike detected |
+request_id=58301 2025-01-01T00:24:10 [ERROR] (service-1) Authentication
+failed | request_id=81387 2025-01-01T00:24:15 [ERROR] (service-2)
+Authentication failed | request_id=60250 2025-01-01T00:24:20 [INFO]
+(service-5) Metrics reported | request_id=25129 2025-01-01T00:24:25
+[INFO] (service-4) Configuration loaded | request_id=96664
+2025-01-01T00:24:30 [INFO] (service-5) File processed successfully |
+request_id=72618 2025-01-01T00:24:35 [WARNING] (service-2) Retrying
+failed request | request_id=30781 2025-01-01T00:24:40 [WARNING]
+(service-3) Token nearing expiration | request_id=37769
+2025-01-01T00:24:45 [ERROR] (service-4) Timeout while calling external
+API | request_id=60545 2025-01-01T00:24:50 [WARNING] (service-2) Disk
+usage above 80% | request_id=58285 2025-01-01T00:24:55 [WARNING]
+(service-1) Queue length growing | request_id=46750 2025-01-01T00:25:00
+[ERROR] (service-4) Authentication failed | request_id=63285
+2025-01-01T00:25:05 [WARNING] (service-1) Token nearing expiration |
+request_id=67768 2025-01-01T00:25:10 [INFO] (service-4) Session
+validated | request_id=74316 2025-01-01T00:25:15 [INFO] (service-1) File
+processed successfully | request_id=59331 2025-01-01T00:25:20 [ERROR]
+(service-5) Database connection failed | request_id=98034
+2025-01-01T00:25:25 [ERROR] (service-4) Invalid configuration format |
+request_id=62739 2025-01-01T00:25:30 [INFO] (service-3) Configuration
+loaded | request_id=48046 2025-01-01T00:25:35 [WARNING] (service-3) Disk
+usage above 80% | request_id=17157 2025-01-01T00:25:40 [WARNING]
+(service-2) Disk usage above 80% | request_id=25688 2025-01-01T00:25:45
+[WARNING] (service-5) Token nearing expiration | request_id=48481
+2025-01-01T00:25:50 [INFO] (service-1) Scheduled job executed |
+request_id=85283 2025-01-01T00:25:55 [ERROR] (service-3) Authentication
+failed | request_id=68895 2025-01-01T00:26:00 [ERROR] (service-4)
+Service dependency unavailable | request_id=97757 2025-01-01T00:26:05
+[WARNING] (service-2) Token nearing expiration | request_id=78863
+2025-01-01T00:26:10 [WARNING] (service-4) Configuration value missing,
+using default | request_id=28285 2025-01-01T00:26:15 [WARNING]
+(service-1) Disk usage above 80% | request_id=60074 2025-01-01T00:26:20
+[WARNING] (service-1) API response slower than expected |
+request_id=14835 2025-01-01T00:26:25 [ERROR] (service-5) Null pointer
+exception | request_id=83244 2025-01-01T00:26:30 [WARNING] (service-4)
+Token nearing expiration | request_id=41510 2025-01-01T00:26:35 [ERROR]
+(service-5) Unhandled exception occurred | request_id=98435
+2025-01-01T00:26:40 [INFO] (service-2) Health check passed |
+request_id=17589 2025-01-01T00:26:45 [INFO] (service-1) Database
+connection established | request_id=59054 2025-01-01T00:26:50 [WARNING]
+(service-1) Temporary network latency detected | request_id=63690
+2025-01-01T00:26:55 [INFO] (service-4) File processed successfully |
+request_id=37608 2025-01-01T00:27:00 [ERROR] (service-4) Timeout while
+calling external API | request_id=82668 2025-01-01T00:27:05 [INFO]
+(service-4) Metrics reported | request_id=76718 2025-01-01T00:27:10
+[ERROR] (service-1) Invalid configuration format | request_id=34292
+2025-01-01T00:27:15 [ERROR] (service-2) Unhandled exception occurred |
+request_id=22664 2025-01-01T00:27:20 [WARNING] (service-3) Cache miss
+spike detected | request_id=87305 2025-01-01T00:27:25 [ERROR]
+(service-3) Permission denied | request_id=53474 2025-01-01T00:27:30
+[INFO] (service-1) Metrics reported | request_id=54772
+2025-01-01T00:27:35 [ERROR] (service-4) File not found |
+request_id=47673 2025-01-01T00:27:40 [ERROR] (service-3) Timeout while
+calling external API | request_id=29488 2025-01-01T00:27:45 [WARNING]
+(service-1) Deprecated API used | request_id=96492 2025-01-01T00:27:50
+[WARNING] (service-4) High memory usage detected | request_id=49439
+2025-01-01T00:27:55 [ERROR] (service-3) Unhandled exception occurred |
+request_id=46448 2025-01-01T00:28:00 [ERROR] (service-3) Invalid
+configuration format | request_id=40184 2025-01-01T00:28:05 [WARNING]
+(service-1) Token nearing expiration | request_id=75015
+2025-01-01T00:28:10 [WARNING] (service-1) Cache miss spike detected |
+request_id=83315 2025-01-01T00:28:15 [INFO] (service-1) Configuration
+loaded | request_id=57073 2025-01-01T00:28:20 [WARNING] (service-4)
+Deprecated API used | request_id=10095 2025-01-01T00:28:25 [ERROR]
+(service-1) File not found | request_id=13986 2025-01-01T00:28:30
+[WARNING] (service-2) Disk usage above 80% | request_id=65919
+2025-01-01T00:28:35 [WARNING] (service-5) High memory usage detected |
+request_id=58344 2025-01-01T00:28:40 [INFO] (service-5) Scheduled job
+executed | request_id=79552 2025-01-01T00:28:45 [INFO] (service-3)
+Health check passed | request_id=67071 2025-01-01T00:28:50 [WARNING]
+(service-5) Retrying failed request | request_id=30480
+2025-01-01T00:28:55 [INFO] (service-5) Configuration loaded |
+request_id=72784 2025-01-01T00:29:00 [ERROR] (service-5) Null pointer
+exception | request_id=48887 2025-01-01T00:29:05 [ERROR] (service-3)
+Timeout while calling external API | request_id=79639
+2025-01-01T00:29:10 [INFO] (service-1) Cache refreshed |
+request_id=98294 2025-01-01T00:29:15 [ERROR] (service-1) Unhandled
+exception occurred | request_id=43905 2025-01-01T00:29:20 [ERROR]
+(service-2) Unhandled exception occurred | request_id=17298
+2025-01-01T00:29:25 [INFO] (service-5) Service started |
+request_id=68756 2025-01-01T00:29:30 [INFO] (service-3) File processed
+successfully | request_id=64346 2025-01-01T00:29:35 [ERROR] (service-5)
+Permission denied | request_id=15238 2025-01-01T00:29:40 [WARNING]
+(service-4) Retrying failed request | request_id=86165
+2025-01-01T00:29:45 [INFO] (service-4) Session validated |
+request_id=42421 2025-01-01T00:29:50 [ERROR] (service-1) Database
+connection failed | request_id=17677 2025-01-01T00:29:55 [ERROR]
+(service-1) File not found | request_id=92705 2025-01-01T00:30:00
+[ERROR] (service-2) Authentication failed | request_id=20519
+2025-01-01T00:30:05 [ERROR] (service-4) File not found |
+request_id=21401 2025-01-01T00:30:10 [INFO] (service-4) Cache refreshed
+| request_id=17481 2025-01-01T00:30:15 [ERROR] (service-2) Permission
+denied | request_id=38765 2025-01-01T00:30:20 [ERROR] (service-5)
+Timeout while calling external API | request_id=61998
+2025-01-01T00:30:25 [WARNING] (service-5) Configuration value missing,
+using default | request_id=73235 2025-01-01T00:30:30 [WARNING]
+(service-5) Cache miss spike detected | request_id=37209
+2025-01-01T00:30:35 [INFO] (service-1) User login successful |
+request_id=61261 2025-01-01T00:30:40 [WARNING] (service-3) Configuration
+value missing, using default | request_id=24740 2025-01-01T00:30:45
+[INFO] (service-3) Metrics reported | request_id=36999
+2025-01-01T00:30:50 [WARNING] (service-1) Configuration value missing,
+using default | request_id=83455 2025-01-01T00:30:55 [ERROR] (service-4)
+Service dependency unavailable | request_id=16923 2025-01-01T00:31:00
+[WARNING] (service-3) Retrying failed request | request_id=41453
+2025-01-01T00:31:05 [WARNING] (service-4) Retrying failed request |
+request_id=55399 2025-01-01T00:31:10 [ERROR] (service-2) Timeout while
+calling external API | request_id=12311 2025-01-01T00:31:15 [INFO]
+(service-2) Scheduled job executed | request_id=99146
+2025-01-01T00:31:20 [INFO] (service-1) User login successful |
+request_id=27279 2025-01-01T00:31:25 [ERROR] (service-5) Null pointer
+exception | request_id=79711 2025-01-01T00:31:30 [INFO] (service-3)
+Session validated | request_id=47767 2025-01-01T00:31:35 [ERROR]
+(service-5) Service dependency unavailable | request_id=49070
+2025-01-01T00:31:40 [ERROR] (service-2) Authentication failed |
+request_id=66859 2025-01-01T00:31:45 [INFO] (service-3) Scheduled job
+executed | request_id=62269 2025-01-01T00:31:50 [ERROR] (service-3)
+Database connection failed | request_id=70272 2025-01-01T00:31:55
+[WARNING] (service-3) Cache miss spike detected | request_id=10177
+2025-01-01T00:32:00 [ERROR] (service-2) Unhandled exception occurred |
+request_id=89906 2025-01-01T00:32:05 [WARNING] (service-4) Deprecated
+API used | request_id=60098 2025-01-01T00:32:10 [ERROR] (service-1)
+Invalid configuration format | request_id=80872 2025-01-01T00:32:15
+[INFO] (service-3) Health check passed | request_id=24481
+2025-01-01T00:32:20 [INFO] (service-2) Scheduled job executed |
+request_id=68556 2025-01-01T00:32:25 [ERROR] (service-4) Failed to write
+to disk | request_id=45306 2025-01-01T00:32:30 [ERROR] (service-2)
+Authentication failed | request_id=67947 2025-01-01T00:32:35 [ERROR]
+(service-3) Null pointer exception | request_id=49302
+2025-01-01T00:32:40 [WARNING] (service-2) High memory usage detected |
+request_id=33003 2025-01-01T00:32:45 [ERROR] (service-3) Authentication
+failed | request_id=83961 2025-01-01T00:32:50 [WARNING] (service-2)
+Cache miss spike detected | request_id=90903 2025-01-01T00:32:55
+[WARNING] (service-3) Retrying failed request | request_id=76600
+2025-01-01T00:33:00 [WARNING] (service-1) High memory usage detected |
+request_id=71164 2025-01-01T00:33:05 [ERROR] (service-4) Authentication
+failed | request_id=86708 2025-01-01T00:33:10 [WARNING] (service-2)
+Retrying failed request | request_id=45470 2025-01-01T00:33:15 [ERROR]
+(service-3) Authentication failed | request_id=17151 2025-01-01T00:33:20
+[INFO] (service-1) Metrics reported | request_id=14870
+2025-01-01T00:33:25 [WARNING] (service-5) Configuration value missing,
+using default | request_id=28993 2025-01-01T00:33:30 [INFO] (service-3)
+File processed successfully | request_id=86077 2025-01-01T00:33:35
+[INFO] (service-4) User login successful | request_id=39467
+2025-01-01T00:33:40 [WARNING] (service-2) Deprecated API used |
+request_id=36068 2025-01-01T00:33:45 [INFO] (service-5) Service started
+| request_id=51643 2025-01-01T00:33:50 [INFO] (service-5) File processed
+successfully | request_id=93556 2025-01-01T00:33:55 [WARNING]
+(service-3) Cache miss spike detected | request_id=97532
+2025-01-01T00:34:00 [INFO] (service-3) Scheduled job executed |
+request_id=24378 2025-01-01T00:34:05 [ERROR] (service-5) Invalid
+configuration format | request_id=68590 2025-01-01T00:34:10 [ERROR]
+(service-5) Service dependency unavailable | request_id=47786
+2025-01-01T00:34:15 [WARNING] (service-3) Temporary network latency
+detected | request_id=10867 2025-01-01T00:34:20 [ERROR] (service-3)
+Timeout while calling external API | request_id=92589
+2025-01-01T00:34:25 [INFO] (service-1) Metrics reported |
+request_id=87586 2025-01-01T00:34:30 [ERROR] (service-5) Unhandled
+exception occurred | request_id=50497 2025-01-01T00:34:35 [INFO]
+(service-3) Service started | request_id=63003 2025-01-01T00:34:40
+[WARNING] (service-1) Disk usage above 80% | request_id=94831
+2025-01-01T00:34:45 [INFO] (service-4) Configuration loaded |
+request_id=71337 2025-01-01T00:34:50 [INFO] (service-4) Scheduled job
+executed | request_id=51021 2025-01-01T00:34:55 [INFO] (service-1)
+Health check passed | request_id=93627 2025-01-01T00:35:00 [INFO]
+(service-4) Session validated | request_id=46717 2025-01-01T00:35:05
+[WARNING] (service-5) API response slower than expected |
+request_id=15851 2025-01-01T00:35:10 [WARNING] (service-5) Deprecated
+API used | request_id=19246 2025-01-01T00:35:15 [ERROR] (service-2)
+Permission denied | request_id=21876 2025-01-01T00:35:20 [ERROR]
+(service-2) Database connection failed | request_id=60782
+2025-01-01T00:35:25 [INFO] (service-3) Cache refreshed |
+request_id=44846 2025-01-01T00:35:30 [ERROR] (service-4) Service
+dependency unavailable | request_id=84216 2025-01-01T00:35:35 [INFO]
+(service-4) Health check passed | request_id=64592 2025-01-01T00:35:40
+[ERROR] (service-5) File not found | request_id=54898
+2025-01-01T00:35:45 [ERROR] (service-4) Permission denied |
+request_id=67692 2025-01-01T00:35:50 [ERROR] (service-3) Timeout while
+calling external API | request_id=47459 2025-01-01T00:35:55 [ERROR]
+(service-5) File not found | request_id=92661 2025-01-01T00:36:00
+[ERROR] (service-4) Unhandled exception occurred | request_id=71799
+2025-01-01T00:36:05 [ERROR] (service-5) Invalid configuration format |
+request_id=48533 2025-01-01T00:36:10 [INFO] (service-1) Service started
+| request_id=78699 2025-01-01T00:36:15 [INFO] (service-4) Database
+connection established | request_id=67844 2025-01-01T00:36:20 [ERROR]
+(service-5) Invalid configuration format | request_id=36518
+2025-01-01T00:36:25 [INFO] (service-3) File processed successfully |
+request_id=88331 2025-01-01T00:36:30 [ERROR] (service-1) Null pointer
+exception | request_id=46767 2025-01-01T00:36:35 [WARNING] (service-2)
+Deprecated API used | request_id=46539 2025-01-01T00:36:40 [INFO]
+(service-4) User login successful | request_id=81443 2025-01-01T00:36:45
+[INFO] (service-4) Database connection established | request_id=44653
+2025-01-01T00:36:50 [WARNING] (service-3) Temporary network latency
+detected | request_id=18825 2025-01-01T00:36:55 [ERROR] (service-4)
+Unhandled exception occurred | request_id=86489 2025-01-01T00:37:00
+[INFO] (service-4) Session validated | request_id=30670
+2025-01-01T00:37:05 [INFO] (service-1) Configuration loaded |
+request_id=58884 2025-01-01T00:37:10 [WARNING] (service-2) Token nearing
+expiration | request_id=93355 2025-01-01T00:37:15 [WARNING] (service-1)
+Disk usage above 80% | request_id=39289 2025-01-01T00:37:20 [ERROR]
+(service-2) Unhandled exception occurred | request_id=37188
+2025-01-01T00:37:25 [WARNING] (service-1) Temporary network latency
+detected | request_id=28430 2025-01-01T00:37:30 [WARNING] (service-4)
+Deprecated API used | request_id=74977 2025-01-01T00:37:35 [WARNING]
+(service-2) API response slower than expected | request_id=22541
+2025-01-01T00:37:40 [WARNING] (service-5) Deprecated API used |
+request_id=66667 2025-01-01T00:37:45 [ERROR] (service-2) Failed to write
+to disk | request_id=64537 2025-01-01T00:37:50 [ERROR] (service-3) File
+not found | request_id=85577 2025-01-01T00:37:55 [ERROR] (service-3)
+Timeout while calling external API | request_id=35157
+2025-01-01T00:38:00 [WARNING] (service-5) Disk usage above 80% |
+request_id=21048 2025-01-01T00:38:05 [INFO] (service-1) Configuration
+loaded | request_id=12161 2025-01-01T00:38:10 [ERROR] (service-4)
+Timeout while calling external API | request_id=77754
+2025-01-01T00:38:15 [INFO] (service-2) Metrics reported |
+request_id=49433 2025-01-01T00:38:20 [WARNING] (service-3) Deprecated
+API used | request_id=98013 2025-01-01T00:38:25 [INFO] (service-3)
+Service started | request_id=24017 2025-01-01T00:38:30 [WARNING]
+(service-1) Temporary network latency detected | request_id=80022
+2025-01-01T00:38:35 [ERROR] (service-5) Failed to write to disk |
+request_id=63253 2025-01-01T00:38:40 [WARNING] (service-2) Cache miss
+spike detected | request_id=72594 2025-01-01T00:38:45 [INFO] (service-2)
+Health check passed | request_id=87630 2025-01-01T00:38:50 [WARNING]
+(service-1) Cache miss spike detected | request_id=67672
+2025-01-01T00:38:55 [INFO] (service-3) Cache refreshed |
+request_id=87206 2025-01-01T00:39:00 [WARNING] (service-1) Token nearing
+expiration | request_id=65040 2025-01-01T00:39:05 [ERROR] (service-5)
+Unhandled exception occurred | request_id=58254 2025-01-01T00:39:10
+[WARNING] (service-1) API response slower than expected |
+request_id=20847 2025-01-01T00:39:15 [WARNING] (service-1) Retrying
+failed request | request_id=45341 2025-01-01T00:39:20 [ERROR]
+(service-1) Service dependency unavailable | request_id=32879
+2025-01-01T00:39:25 [WARNING] (service-4) Disk usage above 80% |
+request_id=67440 2025-01-01T00:39:30 [INFO] (service-4) Database
+connection established | request_id=23838 2025-01-01T00:39:35 [WARNING]
+(service-3) Retrying failed request | request_id=57719
+2025-01-01T00:39:40 [WARNING] (service-3) Temporary network latency
+detected | request_id=54095 2025-01-01T00:39:45 [ERROR] (service-5) Null
+pointer exception | request_id=34896 2025-01-01T00:39:50 [ERROR]
+(service-3) Null pointer exception | request_id=31417
+2025-01-01T00:39:55 [INFO] (service-3) Health check passed |
+request_id=20516 2025-01-01T00:40:00 [INFO] (service-2) User login
+successful | request_id=73232 2025-01-01T00:40:05 [ERROR] (service-5)
+File not found | request_id=11341 2025-01-01T00:40:10 [WARNING]
+(service-5) Queue length growing | request_id=86393 2025-01-01T00:40:15
+[WARNING] (service-3) Disk usage above 80% | request_id=40312
+2025-01-01T00:40:20 [ERROR] (service-2) Service dependency unavailable |
+request_id=38098 2025-01-01T00:40:25 [INFO] (service-5) Session
+validated | request_id=26067 2025-01-01T00:40:30 [ERROR] (service-5)
+Permission denied | request_id=16221 2025-01-01T00:40:35 [ERROR]
+(service-2) Service dependency unavailable | request_id=46917
+2025-01-01T00:40:40 [INFO] (service-2) Service started |
+request_id=82231 2025-01-01T00:40:45 [WARNING] (service-5) Retrying
+failed request | request_id=66892 2025-01-01T00:40:50 [WARNING]
+(service-1) Disk usage above 80% | request_id=77719 2025-01-01T00:40:55
+[WARNING] (service-4) Disk usage above 80% | request_id=44453
+2025-01-01T00:41:00 [ERROR] (service-5) Null pointer exception |
+request_id=46019 2025-01-01T00:41:05 [ERROR] (service-5) Authentication
+failed | request_id=11104 2025-01-01T00:41:10 [ERROR] (service-2) Null
+pointer exception | request_id=64728 2025-01-01T00:41:15 [ERROR]
+(service-1) Failed to write to disk | request_id=97627
+2025-01-01T00:41:20 [WARNING] (service-5) Queue length growing |
+request_id=38541 2025-01-01T00:41:25 [ERROR] (service-2) Unhandled
+exception occurred | request_id=13676 2025-01-01T00:41:30 [INFO]
+(service-4) Service started | request_id=66938 2025-01-01T00:41:35
+[INFO] (service-4) Health check passed | request_id=26133
+2025-01-01T00:41:40 [ERROR] (service-1) Timeout while calling external
+API | request_id=22709 2025-01-01T00:41:45 [WARNING] (service-3) Token
+nearing expiration | request_id=74114 2025-01-01T00:41:50 [WARNING]
+(service-3) Cache miss spike detected | request_id=88815
+2025-01-01T00:41:55 [INFO] (service-4) Metrics reported |
+request_id=16876 2025-01-01T00:42:00 [INFO] (service-5) Health check
+passed | request_id=94272 2025-01-01T00:42:05 [INFO] (service-5) Session
+validated | request_id=35222 2025-01-01T00:42:10 [ERROR] (service-2)
+Null pointer exception | request_id=80775 2025-01-01T00:42:15 [WARNING]
+(service-2) API response slower than expected | request_id=18907
+2025-01-01T00:42:20 [WARNING] (service-5) Queue length growing |
+request_id=29664 2025-01-01T00:42:25 [ERROR] (service-3) Invalid
+configuration format | request_id=48428 2025-01-01T00:42:30 [WARNING]
+(service-2) Queue length growing | request_id=81749 2025-01-01T00:42:35
+[ERROR] (service-4) Service dependency unavailable | request_id=41243
+2025-01-01T00:42:40 [INFO] (service-2) Scheduled job executed |
+request_id=75532 2025-01-01T00:42:45 [WARNING] (service-3) Token nearing
+expiration | request_id=77273 2025-01-01T00:42:50 [INFO] (service-1)
+Cache refreshed | request_id=40067 2025-01-01T00:42:55 [INFO]
+(service-3) Session validated | request_id=99026 2025-01-01T00:43:00
+[WARNING] (service-5) Disk usage above 80% | request_id=51021
+2025-01-01T00:43:05 [WARNING] (service-5) Configuration value missing,
+using default | request_id=12246 2025-01-01T00:43:10 [ERROR] (service-2)
+Permission denied | request_id=79579 2025-01-01T00:43:15 [WARNING]
+(service-3) High memory usage detected | request_id=59456
+2025-01-01T00:43:20 [ERROR] (service-2) File not found |
+request_id=89944 2025-01-01T00:43:25 [INFO] (service-5) Session
+validated | request_id=11020 2025-01-01T00:43:30 [WARNING] (service-5)
+API response slower than expected | request_id=94929 2025-01-01T00:43:35
+[INFO] (service-5) Metrics reported | request_id=48922
+2025-01-01T00:43:40 [WARNING] (service-4) Cache miss spike detected |
+request_id=20366 2025-01-01T00:43:45 [ERROR] (service-1) Permission
+denied | request_id=25184 2025-01-01T00:43:50 [INFO] (service-5)
+Scheduled job executed | request_id=71347 2025-01-01T00:43:55 [ERROR]
+(service-2) Failed to write to disk | request_id=91540
+2025-01-01T00:44:00 [INFO] (service-5) File processed successfully |
+request_id=13292 2025-01-01T00:44:05 [ERROR] (service-1) Database
+connection failed | request_id=21158 2025-01-01T00:44:10 [ERROR]
+(service-1) Service dependency unavailable | request_id=14393
+2025-01-01T00:44:15 [ERROR] (service-3) Service dependency unavailable |
+request_id=10255 2025-01-01T00:44:20 [ERROR] (service-1) Service
+dependency unavailable | request_id=49517 2025-01-01T00:44:25 [WARNING]
+(service-3) API response slower than expected | request_id=85175
+2025-01-01T00:44:30 [WARNING] (service-2) Temporary network latency
+detected | request_id=52852 2025-01-01T00:44:35 [INFO] (service-4)
+Configuration loaded | request_id=35496 2025-01-01T00:44:40 [INFO]
+(service-2) User login successful | request_id=23486 2025-01-01T00:44:45
+[WARNING] (service-1) Cache miss spike detected | request_id=88806
+2025-01-01T00:44:50 [INFO] (service-4) Session validated |
+request_id=50121 2025-01-01T00:44:55 [INFO] (service-1) Metrics reported
+| request_id=93390 2025-01-01T00:45:00 [ERROR] (service-2) Unhandled
+exception occurred | request_id=45123 2025-01-01T00:45:05 [INFO]
+(service-2) User login successful | request_id=72320 2025-01-01T00:45:10
+[WARNING] (service-3) Retrying failed request | request_id=91933
+2025-01-01T00:45:15 [INFO] (service-2) Metrics reported |
+request_id=50360 2025-01-01T00:45:20 [WARNING] (service-5) Configuration
+value missing, using default | request_id=29015 2025-01-01T00:45:25
+[ERROR] (service-5) Authentication failed | request_id=75998
+2025-01-01T00:45:30 [INFO] (service-4) Scheduled job executed |
+request_id=50538 2025-01-01T00:45:35 [WARNING] (service-5) High memory
+usage detected | request_id=43917 2025-01-01T00:45:40 [ERROR]
+(service-1) Unhandled exception occurred | request_id=12173
+2025-01-01T00:45:45 [INFO] (service-5) Health check passed |
+request_id=66380 2025-01-01T00:45:50 [INFO] (service-3) Session
+validated | request_id=45594 2025-01-01T00:45:55 [ERROR] (service-2)
+Failed to write to disk | request_id=98974 2025-01-01T00:46:00 [WARNING]
+(service-5) Disk usage above 80% | request_id=87610 2025-01-01T00:46:05
+[ERROR] (service-3) Failed to write to disk | request_id=87761
+2025-01-01T00:46:10 [INFO] (service-1) Service started |
+request_id=56067 2025-01-01T00:46:15 [ERROR] (service-1) Permission
+denied | request_id=18225 2025-01-01T00:46:20 [WARNING] (service-2) Disk
+usage above 80% | request_id=35018 2025-01-01T00:46:25 [WARNING]
+(service-5) Configuration value missing, using default |
+request_id=59379 2025-01-01T00:46:30 [WARNING] (service-3) Cache miss
+spike detected | request_id=21462 2025-01-01T00:46:35 [INFO] (service-3)
+Configuration loaded | request_id=56015 2025-01-01T00:46:40 [WARNING]
+(service-3) Token nearing expiration | request_id=77822
+2025-01-01T00:46:45 [ERROR] (service-1) File not found |
+request_id=33112 2025-01-01T00:46:50 [ERROR] (service-4) Permission
+denied | request_id=62465 2025-01-01T00:46:55 [ERROR] (service-5) Failed
+to write to disk | request_id=23204 2025-01-01T00:47:00 [WARNING]
+(service-3) High memory usage detected | request_id=70735
+2025-01-01T00:47:05 [WARNING] (service-1) Token nearing expiration |
+request_id=87800 2025-01-01T00:47:10 [INFO] (service-2) Service started
+| request_id=87482 2025-01-01T00:47:15 [ERROR] (service-1) Service
+dependency unavailable | request_id=62817 2025-01-01T00:47:20 [ERROR]
+(service-5) Null pointer exception | request_id=96753
+2025-01-01T00:47:25 [WARNING] (service-1) Deprecated API used |
+request_id=56715 2025-01-01T00:47:30 [INFO] (service-4) Database
+connection established | request_id=93942 2025-01-01T00:47:35 [ERROR]
+(service-4) Unhandled exception occurred | request_id=42613
+2025-01-01T00:47:40 [ERROR] (service-5) Unhandled exception occurred |
+request_id=41874 2025-01-01T00:47:45 [WARNING] (service-5) Temporary
+network latency detected | request_id=72220 2025-01-01T00:47:50
+[WARNING] (service-1) Deprecated API used | request_id=29901
+2025-01-01T00:47:55 [ERROR] (service-3) File not found |
+request_id=42354 2025-01-01T00:48:00 [INFO] (service-5) Service started
+| request_id=52407 2025-01-01T00:48:05 [WARNING] (service-3) Temporary
+network latency detected | request_id=82546 2025-01-01T00:48:10 [INFO]
+(service-5) Cache refreshed | request_id=84365 2025-01-01T00:48:15
+[ERROR] (service-4) Database connection failed | request_id=99052
+2025-01-01T00:48:20 [WARNING] (service-5) Deprecated API used |
+request_id=41417 2025-01-01T00:48:25 [ERROR] (service-3) Service
+dependency unavailable | request_id=29054 2025-01-01T00:48:30 [INFO]
+(service-3) Database connection established | request_id=22321
+2025-01-01T00:48:35 [WARNING] (service-5) Queue length growing |
+request_id=81816 2025-01-01T00:48:40 [INFO] (service-2) Cache refreshed
+| request_id=44884 2025-01-01T00:48:45 [WARNING] (service-1) API
+response slower than expected | request_id=37117 2025-01-01T00:48:50
+[ERROR] (service-4) Unhandled exception occurred | request_id=67790
+2025-01-01T00:48:55 [WARNING] (service-5) API response slower than
+expected | request_id=17206 2025-01-01T00:49:00 [INFO] (service-5)
+Service started | request_id=66291 2025-01-01T00:49:05 [INFO]
+(service-3) Cache refreshed | request_id=96375 2025-01-01T00:49:10
+[WARNING] (service-5) Queue length growing | request_id=58374
+2025-01-01T00:49:15 [ERROR] (service-4) Timeout while calling external
+API | request_id=59554 2025-01-01T00:49:20 [INFO] (service-1) File
+processed successfully | request_id=66448 2025-01-01T00:49:25 [INFO]
+(service-3) File processed successfully | request_id=54900
+2025-01-01T00:49:30 [WARNING] (service-3) Configuration value missing,
+using default | request_id=12234 2025-01-01T00:49:35 [INFO] (service-2)
+Health check passed | request_id=88701 2025-01-01T00:49:40 [INFO]
+(service-2) Database connection established | request_id=33198
+2025-01-01T00:49:45 [WARNING] (service-2) Queue length growing |
+request_id=37287 2025-01-01T00:49:50 [WARNING] (service-1) High memory
+usage detected | request_id=32019 2025-01-01T00:49:55 [WARNING]
+(service-5) High memory usage detected | request_id=61040
+2025-01-01T00:50:00 [WARNING] (service-3) Queue length growing |
+request_id=14376 2025-01-01T00:50:05 [WARNING] (service-2) Queue length
+growing | request_id=37515 2025-01-01T00:50:10 [WARNING] (service-2)
+High memory usage detected | request_id=75524 2025-01-01T00:50:15 [INFO]
+(service-4) File processed successfully | request_id=38511
+2025-01-01T00:50:20 [WARNING] (service-3) Configuration value missing,
+using default | request_id=40272 2025-01-01T00:50:25 [INFO] (service-4)
+Database connection established | request_id=83658 2025-01-01T00:50:30
+[ERROR] (service-2) Service dependency unavailable | request_id=99325
+2025-01-01T00:50:35 [INFO] (service-1) Metrics reported |
+request_id=17319 2025-01-01T00:50:40 [ERROR] (service-4) File not found
+| request_id=93286 2025-01-01T00:50:45 [ERROR] (service-4) File not
+found | request_id=49511 2025-01-01T00:50:50 [INFO] (service-4) Service
+started | request_id=55898 2025-01-01T00:50:55 [WARNING] (service-1)
+Cache miss spike detected | request_id=70828 2025-01-01T00:51:00
+[WARNING] (service-5) Temporary network latency detected |
+request_id=89514 2025-01-01T00:51:05 [WARNING] (service-2) Queue length
+growing | request_id=26794 2025-01-01T00:51:10 [ERROR] (service-4)
+Timeout while calling external API | request_id=45193
+2025-01-01T00:51:15 [INFO] (service-5) Database connection established |
+request_id=43646 2025-01-01T00:51:20 [INFO] (service-4) Service started
+| request_id=23000 2025-01-01T00:51:25 [WARNING] (service-1) Queue
+length growing | request_id=35401 2025-01-01T00:51:30 [INFO] (service-1)
+Session validated | request_id=94603 2025-01-01T00:51:35 [WARNING]
+(service-4) Token nearing expiration | request_id=66972
+2025-01-01T00:51:40 [WARNING] (service-2) Deprecated API used |
+request_id=78479 2025-01-01T00:51:45 [WARNING] (service-4) Queue length
+growing | request_id=28701 2025-01-01T00:51:50 [ERROR] (service-3)
+Service dependency unavailable | request_id=23385 2025-01-01T00:51:55
+[INFO] (service-2) Metrics reported | request_id=90477
+2025-01-01T00:52:00 [WARNING] (service-3) Token nearing expiration |
+request_id=49194 2025-01-01T00:52:05 [INFO] (service-1) Service started
+| request_id=56141 2025-01-01T00:52:10 [ERROR] (service-2) Permission
+denied | request_id=78911 2025-01-01T00:52:15 [WARNING] (service-4)
+Deprecated API used | request_id=80755 2025-01-01T00:52:20 [WARNING]
+(service-5) API response slower than expected | request_id=76965
+2025-01-01T00:52:25 [INFO] (service-3) Database connection established |
+request_id=87301 2025-01-01T00:52:30 [WARNING] (service-1) Queue length
+growing | request_id=73302 2025-01-01T00:52:35 [INFO] (service-1) Cache
+refreshed | request_id=15302 2025-01-01T00:52:40 [WARNING] (service-4)
+Configuration value missing, using default | request_id=96709
+2025-01-01T00:52:45 [ERROR] (service-5) Permission denied |
+request_id=59963 2025-01-01T00:52:50 [ERROR] (service-3) File not found
+| request_id=56540 2025-01-01T00:52:55 [INFO] (service-4) Health check
+passed | request_id=62401 2025-01-01T00:53:00 [INFO] (service-3)
+Configuration loaded | request_id=33101 2025-01-01T00:53:05 [ERROR]
+(service-4) Authentication failed | request_id=63760 2025-01-01T00:53:10
+[INFO] (service-5) Metrics reported | request_id=42564
+2025-01-01T00:53:15 [ERROR] (service-4) Failed to write to disk |
+request_id=51520 2025-01-01T00:53:20 [INFO] (service-4) User login
+successful | request_id=12164 2025-01-01T00:53:25 [WARNING] (service-4)
+Disk usage above 80% | request_id=30944 2025-01-01T00:53:30 [WARNING]
+(service-5) Deprecated API used | request_id=70701 2025-01-01T00:53:35
+[ERROR] (service-1) Unhandled exception occurred | request_id=45834
+2025-01-01T00:53:40 [WARNING] (service-1) High memory usage detected |
+request_id=28919 2025-01-01T00:53:45 [INFO] (service-2) User login
+successful | request_id=28469 2025-01-01T00:53:50 [INFO] (service-3)
+Service started | request_id=16226 2025-01-01T00:53:55 [INFO]
+(service-2) Metrics reported | request_id=45194 2025-01-01T00:54:00
+[WARNING] (service-3) High memory usage detected | request_id=64677
+2025-01-01T00:54:05 [INFO] (service-3) Session validated |
+request_id=87355 2025-01-01T00:54:10 [INFO] (service-5) Service started
+| request_id=92132 2025-01-01T00:54:15 [INFO] (service-3) Health check
+passed | request_id=58849 2025-01-01T00:54:20 [WARNING] (service-5) Disk
+usage above 80% | request_id=34883 2025-01-01T00:54:25 [INFO]
+(service-2) Cache refreshed | request_id=40246 2025-01-01T00:54:30
+[ERROR] (service-3) Invalid configuration format | request_id=47603
+2025-01-01T00:54:35 [INFO] (service-3) User login successful |
+request_id=95146 2025-01-01T00:54:40 [INFO] (service-2) Scheduled job
+executed | request_id=62872 2025-01-01T00:54:45 [WARNING] (service-3)
+High memory usage detected | request_id=13589 2025-01-01T00:54:50 [INFO]
+(service-4) Configuration loaded | request_id=42692 2025-01-01T00:54:55
+[ERROR] (service-3) Invalid configuration format | request_id=26265
+2025-01-01T00:55:00 [INFO] (service-3) Configuration loaded |
+request_id=23981 2025-01-01T00:55:05 [INFO] (service-1) Metrics reported
+| request_id=55105 2025-01-01T00:55:10 [ERROR] (service-1)
+Authentication failed | request_id=80423 2025-01-01T00:55:15 [WARNING]
+(service-2) Cache miss spike detected | request_id=38201
+2025-01-01T00:55:20 [ERROR] (service-3) Unhandled exception occurred |
+request_id=63602 2025-01-01T00:55:25 [ERROR] (service-1) Failed to write
+to disk | request_id=63968 2025-01-01T00:55:30 [ERROR] (service-1)
+Database connection failed | request_id=93420 2025-01-01T00:55:35
+[WARNING] (service-2) API response slower than expected |
+request_id=94048 2025-01-01T00:55:40 [ERROR] (service-5) Authentication
+failed | request_id=25744 2025-01-01T00:55:45 [ERROR] (service-5)
+Timeout while calling external API | request_id=40809
+2025-01-01T00:55:50 [INFO] (service-4) Scheduled job executed |
+request_id=33744 2025-01-01T00:55:55 [INFO] (service-5) Session
+validated | request_id=68943 2025-01-01T00:56:00 [INFO] (service-4)
+Metrics reported | request_id=32881 2025-01-01T00:56:05 [WARNING]
+(service-4) API response slower than expected | request_id=26785
+2025-01-01T00:56:10 [WARNING] (service-4) Disk usage above 80% |
+request_id=40155 2025-01-01T00:56:15 [INFO] (service-1) Configuration
+loaded | request_id=78120 2025-01-01T00:56:20 [INFO] (service-5)
+Database connection established | request_id=99337 2025-01-01T00:56:25
+[INFO] (service-3) Configuration loaded | request_id=41431
+2025-01-01T00:56:30 [WARNING] (service-1) High memory usage detected |
+request_id=23790 2025-01-01T00:56:35 [INFO] (service-4) Configuration
+loaded | request_id=89227 2025-01-01T00:56:40 [INFO] (service-3) Health
+check passed | request_id=59605 2025-01-01T00:56:45 [INFO] (service-2)
+Health check passed | request_id=84419 2025-01-01T00:56:50 [WARNING]
+(service-2) High memory usage detected | request_id=91300
+2025-01-01T00:56:55 [ERROR] (service-2) Invalid configuration format |
+request_id=44856 2025-01-01T00:57:00 [WARNING] (service-4) Retrying
+failed request | request_id=15880 2025-01-01T00:57:05 [ERROR]
+(service-1) Permission denied | request_id=48112 2025-01-01T00:57:10
+[WARNING] (service-2) Disk usage above 80% | request_id=97373
+2025-01-01T00:57:15 [INFO] (service-4) Service started |
+request_id=73994 2025-01-01T00:57:20 [WARNING] (service-2) High memory
+usage detected | request_id=60344 2025-01-01T00:57:25 [INFO] (service-2)
+Session validated | request_id=50657 2025-01-01T00:57:30 [WARNING]
+(service-2) API response slower than expected | request_id=58821
+2025-01-01T00:57:35 [WARNING] (service-2) Configuration value missing,
+using default | request_id=91828 2025-01-01T00:57:40 [INFO] (service-1)
+File processed successfully | request_id=40118 2025-01-01T00:57:45
+[ERROR] (service-4) Service dependency unavailable | request_id=49410
+2025-01-01T00:57:50 [ERROR] (service-2) Invalid configuration format |
+request_id=82097 2025-01-01T00:57:55 [WARNING] (service-5) Deprecated
+API used | request_id=82091 2025-01-01T00:58:00 [ERROR] (service-5)
+Database connection failed | request_id=36398 2025-01-01T00:58:05
+[WARNING] (service-5) Retrying failed request | request_id=41197
+2025-01-01T00:58:10 [INFO] (service-4) Session validated |
+request_id=19900 2025-01-01T00:58:15 [INFO] (service-5) Configuration
+loaded | request_id=11561 2025-01-01T00:58:20 [ERROR] (service-5)
+Service dependency unavailable | request_id=39453 2025-01-01T00:58:25
+[WARNING] (service-2) Queue length growing | request_id=74462
+2025-01-01T00:58:30 [INFO] (service-3) Configuration loaded |
+request_id=12349 2025-01-01T00:58:35 [WARNING] (service-1) API response
+slower than expected | request_id=34705 2025-01-01T00:58:40 [INFO]
+(service-3) Metrics reported | request_id=37408 2025-01-01T00:58:45
+[ERROR] (service-1) Permission denied | request_id=77876
+2025-01-01T00:58:50 [ERROR] (service-1) Database connection failed |
+request_id=45292 2025-01-01T00:58:55 [WARNING] (service-4) Retrying
+failed request | request_id=34007 2025-01-01T00:59:00 [ERROR]
+(service-4) Database connection failed | request_id=73488
+2025-01-01T00:59:05 [ERROR] (service-2) Timeout while calling external
+API | request_id=10986 2025-01-01T00:59:10 [WARNING] (service-1) High
+memory usage detected | request_id=76485 2025-01-01T00:59:15 [WARNING]
+(service-1) Token nearing expiration | request_id=11802
+2025-01-01T00:59:20 [ERROR] (service-5) Unhandled exception occurred |
+request_id=11235 2025-01-01T00:59:25 [ERROR] (service-1) Failed to write
+to disk | request_id=14177 2025-01-01T00:59:30 [INFO] (service-1)
+Database connection established | request_id=15229 2025-01-01T00:59:35
+[INFO] (service-2) Cache refreshed | request_id=30978
+2025-01-01T00:59:40 [ERROR] (service-2) Null pointer exception |
+request_id=82296 2025-01-01T00:59:45 [INFO] (service-5) File processed
+successfully | request_id=84392 2025-01-01T00:59:50 [WARNING]
+(service-2) Temporary network latency detected | request_id=26113
+2025-01-01T00:59:55 [INFO] (service-5) User login successful |
+request_id=57664 2025-01-01T01:00:00 [ERROR] (service-4) File not found
+| request_id=64849 2025-01-01T01:00:05 [ERROR] (service-5) Permission
+denied | request_id=99019 2025-01-01T01:00:10 [WARNING] (service-4)
+Configuration value missing, using default | request_id=22836
+2025-01-01T01:00:15 [ERROR] (service-1) Invalid configuration format |
+request_id=32050 2025-01-01T01:00:20 [ERROR] (service-2) Null pointer
+exception | request_id=65484 2025-01-01T01:00:25 [WARNING] (service-5)
+High memory usage detected | request_id=54494 2025-01-01T01:00:30
+[ERROR] (service-3) Database connection failed | request_id=14029
+2025-01-01T01:00:35 [WARNING] (service-1) API response slower than
+expected | request_id=23034 2025-01-01T01:00:40 [ERROR] (service-1)
+Service dependency unavailable | request_id=14299 2025-01-01T01:00:45
+[ERROR] (service-1) Database connection failed | request_id=43245
+2025-01-01T01:00:50 [WARNING] (service-1) Deprecated API used |
+request_id=37636 2025-01-01T01:00:55 [WARNING] (service-1) High memory
+usage detected | request_id=30285 2025-01-01T01:01:00 [INFO] (service-2)
+Scheduled job executed | request_id=17209 2025-01-01T01:01:05 [INFO]
+(service-3) Database connection established | request_id=36466
+2025-01-01T01:01:10 [ERROR] (service-3) Failed to write to disk |
+request_id=56667 2025-01-01T01:01:15 [ERROR] (service-5) Database
+connection failed | request_id=21293 2025-01-01T01:01:20 [INFO]
+(service-3) User login successful | request_id=71388 2025-01-01T01:01:25
+[WARNING] (service-3) Queue length growing | request_id=84437
+2025-01-01T01:01:30 [WARNING] (service-4) Token nearing expiration |
+request_id=61415 2025-01-01T01:01:35 [WARNING] (service-4) Deprecated
+API used | request_id=74295 2025-01-01T01:01:40 [INFO] (service-5)
+Session validated | request_id=47070 2025-01-01T01:01:45 [ERROR]
+(service-4) Invalid configuration format | request_id=10953
+2025-01-01T01:01:50 [ERROR] (service-5) Database connection failed |
+request_id=67755 2025-01-01T01:01:55 [WARNING] (service-5) Token nearing
+expiration | request_id=21273 2025-01-01T01:02:00 [WARNING] (service-2)
+High memory usage detected | request_id=41511 2025-01-01T01:02:05
+[ERROR] (service-5) Timeout while calling external API |
+request_id=58850 2025-01-01T01:02:10 [INFO] (service-2) Configuration
+loaded | request_id=77520 2025-01-01T01:02:15 [ERROR] (service-1) File
+not found | request_id=89475 2025-01-01T01:02:20 [WARNING] (service-5)
+Cache miss spike detected | request_id=39672 2025-01-01T01:02:25 [ERROR]
+(service-3) Unhandled exception occurred | request_id=78027
+2025-01-01T01:02:30 [INFO] (service-5) Health check passed |
+request_id=62170 2025-01-01T01:02:35 [ERROR] (service-1) Service
+dependency unavailable | request_id=84663 2025-01-01T01:02:40 [INFO]
+(service-5) Service started | request_id=16135 2025-01-01T01:02:45
+[ERROR] (service-3) Database connection failed | request_id=68827
+2025-01-01T01:02:50 [WARNING] (service-1) Temporary network latency
+detected | request_id=54222 2025-01-01T01:02:55 [INFO] (service-2) User
+login successful | request_id=21359 2025-01-01T01:03:00 [INFO]
+(service-1) Session validated | request_id=71403 2025-01-01T01:03:05
+[INFO] (service-5) Configuration loaded | request_id=72284
+2025-01-01T01:03:10 [ERROR] (service-2) Service dependency unavailable |
+request_id=41206 2025-01-01T01:03:15 [WARNING] (service-4) API response
+slower than expected | request_id=24122 2025-01-01T01:03:20 [INFO]
+(service-4) User login successful | request_id=81533 2025-01-01T01:03:25
+[INFO] (service-4) Health check passed | request_id=30745
+2025-01-01T01:03:30 [INFO] (service-3) File processed successfully |
+request_id=10200 2025-01-01T01:03:35 [WARNING] (service-3) Temporary
+network latency detected | request_id=37730 2025-01-01T01:03:40 [INFO]
+(service-4) Session validated | request_id=20242 2025-01-01T01:03:45
+[INFO] (service-1) Service started | request_id=85695
+2025-01-01T01:03:50 [INFO] (service-2) Session validated |
+request_id=54091 2025-01-01T01:03:55 [WARNING] (service-3) Disk usage
+above 80% | request_id=27488 2025-01-01T01:04:00 [WARNING] (service-2)
+Cache miss spike detected | request_id=52003 2025-01-01T01:04:05
+[WARNING] (service-2) Cache miss spike detected | request_id=68919
+2025-01-01T01:04:10 [ERROR] (service-3) Service dependency unavailable |
+request_id=94835 2025-01-01T01:04:15 [INFO] (service-2) Database
+connection established | request_id=48661 2025-01-01T01:04:20 [WARNING]
+(service-4) Disk usage above 80% | request_id=26943 2025-01-01T01:04:25
+[INFO] (service-1) Database connection established | request_id=63607
+2025-01-01T01:04:30 [ERROR] (service-2) Permission denied |
+request_id=96073 2025-01-01T01:04:35 [WARNING] (service-5) Configuration
+value missing, using default | request_id=50078 2025-01-01T01:04:40
+[WARNING] (service-1) Disk usage above 80% | request_id=57871
+2025-01-01T01:04:45 [INFO] (service-1) Metrics reported |
+request_id=64923 2025-01-01T01:04:50 [ERROR] (service-2) File not found
+| request_id=26777 2025-01-01T01:04:55 [ERROR] (service-1) Permission
+denied | request_id=69534 2025-01-01T01:05:00 [ERROR] (service-1) Failed
+to write to disk | request_id=95831 2025-01-01T01:05:05 [INFO]
+(service-2) Service started | request_id=15143 2025-01-01T01:05:10
+[ERROR] (service-3) Service dependency unavailable | request_id=14700
+2025-01-01T01:05:15 [INFO] (service-2) File processed successfully |
+request_id=45200 2025-01-01T01:05:20 [WARNING] (service-3) API response
+slower than expected | request_id=46848 2025-01-01T01:05:25 [INFO]
+(service-4) User login successful | request_id=17616 2025-01-01T01:05:30
+[WARNING] (service-1) Configuration value missing, using default |
+request_id=53617 2025-01-01T01:05:35 [ERROR] (service-5) Invalid
+configuration format | request_id=80691 2025-01-01T01:05:40 [INFO]
+(service-3) Database connection established | request_id=71448
+2025-01-01T01:05:45 [ERROR] (service-1) Database connection failed |
+request_id=12536 2025-01-01T01:05:50 [INFO] (service-2) Service started
+| request_id=31705 2025-01-01T01:05:55 [ERROR] (service-4) Failed to
+write to disk | request_id=15818 2025-01-01T01:06:00 [WARNING]
+(service-1) High memory usage detected | request_id=44624
+2025-01-01T01:06:05 [WARNING] (service-1) Retrying failed request |
+request_id=67176 2025-01-01T01:06:10 [WARNING] (service-2) Cache miss
+spike detected | request_id=24512 2025-01-01T01:06:15 [WARNING]
+(service-3) Configuration value missing, using default |
+request_id=82671 2025-01-01T01:06:20 [ERROR] (service-5) Invalid
+configuration format | request_id=66697 2025-01-01T01:06:25 [ERROR]
+(service-1) Timeout while calling external API | request_id=89466
+2025-01-01T01:06:30 [INFO] (service-1) Health check passed |
+request_id=83882 2025-01-01T01:06:35 [ERROR] (service-2) File not found
+| request_id=92613 2025-01-01T01:06:40 [INFO] (service-2) Health check
+passed | request_id=64004 2025-01-01T01:06:45 [ERROR] (service-5)
+Service dependency unavailable | request_id=94171 2025-01-01T01:06:50
+[ERROR] (service-5) Authentication failed | request_id=23358
+2025-01-01T01:06:55 [ERROR] (service-3) File not found |
+request_id=60483 2025-01-01T01:07:00 [WARNING] (service-5) Temporary
+network latency detected | request_id=93051 2025-01-01T01:07:05 [INFO]
+(service-2) Metrics reported | request_id=72175 2025-01-01T01:07:10
+[WARNING] (service-5) API response slower than expected |
+request_id=96075 2025-01-01T01:07:15 [WARNING] (service-4) Retrying
+failed request | request_id=91114 2025-01-01T01:07:20 [ERROR]
+(service-5) Permission denied | request_id=59291 2025-01-01T01:07:25
+[WARNING] (service-5) High memory usage detected | request_id=78622
+2025-01-01T01:07:30 [ERROR] (service-2) Failed to write to disk |
+request_id=38994 2025-01-01T01:07:35 [INFO] (service-3) Scheduled job
+executed | request_id=74846 2025-01-01T01:07:40 [INFO] (service-3)
+Scheduled job executed | request_id=71359 2025-01-01T01:07:45 [INFO]
+(service-4) User login successful | request_id=27715 2025-01-01T01:07:50
+[INFO] (service-4) File processed successfully | request_id=56314
+2025-01-01T01:07:55 [ERROR] (service-1) Timeout while calling external
+API | request_id=42386 2025-01-01T01:08:00 [WARNING] (service-4) Token
+nearing expiration | request_id=20420 2025-01-01T01:08:05 [ERROR]
+(service-3) Invalid configuration format | request_id=26047
+2025-01-01T01:08:10 [INFO] (service-3) Metrics reported |
+request_id=64085 2025-01-01T01:08:15 [WARNING] (service-3) Disk usage
+above 80% | request_id=42190 2025-01-01T01:08:20 [WARNING] (service-5)
+High memory usage detected | request_id=21666 2025-01-01T01:08:25
+[ERROR] (service-1) Database connection failed | request_id=82080
+2025-01-01T01:08:30 [ERROR] (service-2) Permission denied |
+request_id=76891 2025-01-01T01:08:35 [INFO] (service-5) Session
+validated | request_id=64829 2025-01-01T01:08:40 [ERROR] (service-4)
+Timeout while calling external API | request_id=73295
+2025-01-01T01:08:45 [WARNING] (service-1) Configuration value missing,
+using default | request_id=16239 2025-01-01T01:08:50 [WARNING]
+(service-4) Temporary network latency detected | request_id=88126
+2025-01-01T01:08:55 [ERROR] (service-2) File not found |
+request_id=17744 2025-01-01T01:09:00 [WARNING] (service-5) Retrying
+failed request | request_id=12298 2025-01-01T01:09:05 [ERROR]
+(service-1) Invalid configuration format | request_id=67167
+2025-01-01T01:09:10 [ERROR] (service-4) Service dependency unavailable |
+request_id=10104 2025-01-01T01:09:15 [ERROR] (service-1) Failed to write
+to disk | request_id=94121 2025-01-01T01:09:20 [ERROR] (service-4)
+Service dependency unavailable | request_id=45529 2025-01-01T01:09:25
+[INFO] (service-5) Metrics reported | request_id=59997
+2025-01-01T01:09:30 [ERROR] (service-5) Authentication failed |
+request_id=51020 2025-01-01T01:09:35 [WARNING] (service-1) API response
+slower than expected | request_id=27143 2025-01-01T01:09:40 [ERROR]
+(service-3) Permission denied | request_id=59130 2025-01-01T01:09:45
+[WARNING] (service-2) Configuration value missing, using default |
+request_id=98937 2025-01-01T01:09:50 [ERROR] (service-4) Service
+dependency unavailable | request_id=16542 2025-01-01T01:09:55 [WARNING]
+(service-5) Configuration value missing, using default |
+request_id=14974 2025-01-01T01:10:00 [ERROR] (service-1) Timeout while
+calling external API | request_id=60670 2025-01-01T01:10:05 [ERROR]
+(service-3) Invalid configuration format | request_id=29369
+2025-01-01T01:10:10 [ERROR] (service-1) Unhandled exception occurred |
+request_id=51093 2025-01-01T01:10:15 [WARNING] (service-4) Configuration
+value missing, using default | request_id=50654 2025-01-01T01:10:20
+[ERROR] (service-5) Permission denied | request_id=25378
+2025-01-01T01:10:25 [WARNING] (service-2) Cache miss spike detected |
+request_id=62416 2025-01-01T01:10:30 [INFO] (service-4) Metrics reported
+| request_id=30129 2025-01-01T01:10:35 [ERROR] (service-3)
+Authentication failed | request_id=70833 2025-01-01T01:10:40 [WARNING]
+(service-1) API response slower than expected | request_id=58646
+2025-01-01T01:10:45 [INFO] (service-1) Health check passed |
+request_id=92499 2025-01-01T01:10:50 [ERROR] (service-2) Database
+connection failed | request_id=57393 2025-01-01T01:10:55 [INFO]
+(service-5) Health check passed | request_id=50703 2025-01-01T01:11:00
+[INFO] (service-2) File processed successfully | request_id=32673
+2025-01-01T01:11:05 [INFO] (service-2) Service started |
+request_id=51359 2025-01-01T01:11:10 [WARNING] (service-5) Temporary
+network latency detected | request_id=35416 2025-01-01T01:11:15
+[WARNING] (service-5) API response slower than expected |
+request_id=31672 2025-01-01T01:11:20 [WARNING] (service-1) Queue length
+growing | request_id=75818 2025-01-01T01:11:25 [WARNING] (service-3)
+High memory usage detected | request_id=18604 2025-01-01T01:11:30 [INFO]
+(service-5) Session validated | request_id=76392 2025-01-01T01:11:35
+[ERROR] (service-3) Permission denied | request_id=62964
+2025-01-01T01:11:40 [WARNING] (service-4) Token nearing expiration |
+request_id=29210 2025-01-01T01:11:45 [WARNING] (service-4) Temporary
+network latency detected | request_id=70341 2025-01-01T01:11:50 [ERROR]
+(service-2) Timeout while calling external API | request_id=36157
+2025-01-01T01:11:55 [WARNING] (service-3) Retrying failed request |
+request_id=24541 2025-01-01T01:12:00 [WARNING] (service-2) Configuration
+value missing, using default | request_id=58966 2025-01-01T01:12:05
+[WARNING] (service-2) Temporary network latency detected |
+request_id=54861 2025-01-01T01:12:10 [INFO] (service-5) Session
+validated | request_id=36853 2025-01-01T01:12:15 [WARNING] (service-5)
+Deprecated API used | request_id=91923 2025-01-01T01:12:20 [WARNING]
+(service-1) Deprecated API used | request_id=50209 2025-01-01T01:12:25
+[WARNING] (service-5) Token nearing expiration | request_id=71072
+2025-01-01T01:12:30 [ERROR] (service-4) File not found |
+request_id=23605 2025-01-01T01:12:35 [ERROR] (service-4) Invalid
+configuration format | request_id=64085 2025-01-01T01:12:40 [INFO]
+(service-2) Service started | request_id=35853 2025-01-01T01:12:45
+[WARNING] (service-2) Retrying failed request | request_id=64950
+2025-01-01T01:12:50 [WARNING] (service-4) Token nearing expiration |
+request_id=32508 2025-01-01T01:12:55 [ERROR] (service-4) Invalid
+configuration format | request_id=83131 2025-01-01T01:13:00 [ERROR]
+(service-1) Authentication failed | request_id=76213 2025-01-01T01:13:05
+[INFO] (service-4) Database connection established | request_id=69342
+2025-01-01T01:13:10 [INFO] (service-4) Configuration loaded |
+request_id=83600 2025-01-01T01:13:15 [WARNING] (service-2) High memory
+usage detected | request_id=73324 2025-01-01T01:13:20 [WARNING]
+(service-1) Cache miss spike detected | request_id=65549
+2025-01-01T01:13:25 [ERROR] (service-5) Timeout while calling external
+API | request_id=22537 2025-01-01T01:13:30 [INFO] (service-4)
+Configuration loaded | request_id=89014 2025-01-01T01:13:35 [INFO]
+(service-3) Database connection established | request_id=34453
+2025-01-01T01:13:40 [WARNING] (service-5) High memory usage detected |
+request_id=52503 2025-01-01T01:13:45 [WARNING] (service-5) High memory
+usage detected | request_id=41201 2025-01-01T01:13:50 [INFO] (service-2)
+Configuration loaded | request_id=75149 2025-01-01T01:13:55 [INFO]
+(service-3) Cache refreshed | request_id=80981 2025-01-01T01:14:00
+[ERROR] (service-2) Failed to write to disk | request_id=75864
+2025-01-01T01:14:05 [INFO] (service-3) Session validated |
+request_id=65923 2025-01-01T01:14:10 [ERROR] (service-1) Timeout while
+calling external API | request_id=29040 2025-01-01T01:14:15 [WARNING]
+(service-5) Token nearing expiration | request_id=98241
+2025-01-01T01:14:20 [INFO] (service-4) Database connection established |
+request_id=18775 2025-01-01T01:14:25 [INFO] (service-2) Cache refreshed
+| request_id=96235 2025-01-01T01:14:30 [INFO] (service-3) Metrics
+reported | request_id=72070 2025-01-01T01:14:35 [ERROR] (service-2)
+Permission denied | request_id=54833 2025-01-01T01:14:40 [INFO]
+(service-2) User login successful | request_id=11072 2025-01-01T01:14:45
+[ERROR] (service-1) Service dependency unavailable | request_id=29563
+2025-01-01T01:14:50 [ERROR] (service-1) Unhandled exception occurred |
+request_id=45979 2025-01-01T01:14:55 [WARNING] (service-5) High memory
+usage detected | request_id=37437 2025-01-01T01:15:00 [WARNING]
+(service-3) Temporary network latency detected | request_id=91540
+2025-01-01T01:15:05 [WARNING] (service-5) Queue length growing |
+request_id=65885 2025-01-01T01:15:10 [WARNING] (service-3) Cache miss
+spike detected | request_id=82935 2025-01-01T01:15:15 [ERROR]
+(service-1) Permission denied | request_id=34174 2025-01-01T01:15:20
+[INFO] (service-2) Service started | request_id=28776
+2025-01-01T01:15:25 [ERROR] (service-4) Null pointer exception |
+request_id=82701 2025-01-01T01:15:30 [ERROR] (service-4) Invalid
+configuration format | request_id=46949 2025-01-01T01:15:35 [WARNING]
+(service-5) Temporary network latency detected | request_id=23075
+2025-01-01T01:15:40 [ERROR] (service-5) Database connection failed |
+request_id=89363 2025-01-01T01:15:45 [WARNING] (service-1) Configuration
+value missing, using default | request_id=85090 2025-01-01T01:15:50
+[INFO] (service-2) Session validated | request_id=54978
+2025-01-01T01:15:55 [WARNING] (service-4) Queue length growing |
+request_id=57568 2025-01-01T01:16:00 [INFO] (service-3) File processed
+successfully | request_id=94464 2025-01-01T01:16:05 [ERROR] (service-5)
+Database connection failed | request_id=91574 2025-01-01T01:16:10 [INFO]
+(service-1) Service started | request_id=32014 2025-01-01T01:16:15
+[WARNING] (service-5) Queue length growing | request_id=59948
+2025-01-01T01:16:20 [WARNING] (service-4) Configuration value missing,
+using default | request_id=33584 2025-01-01T01:16:25 [WARNING]
+(service-5) API response slower than expected | request_id=63159
+2025-01-01T01:16:30 [INFO] (service-5) File processed successfully |
+request_id=22679 2025-01-01T01:16:35 [INFO] (service-5) User login
+successful | request_id=98334 2025-01-01T01:16:40 [INFO] (service-4)
+Session validated | request_id=48582 2025-01-01T01:16:45 [INFO]
+(service-5) Session validated | request_id=16718 2025-01-01T01:16:50
+[INFO] (service-3) Health check passed | request_id=26794
+2025-01-01T01:16:55 [ERROR] (service-1) File not found |
+request_id=43837 2025-01-01T01:17:00 [ERROR] (service-2) Null pointer
+exception | request_id=92154 2025-01-01T01:17:05 [ERROR] (service-2)
+Authentication failed | request_id=60056 2025-01-01T01:17:10 [WARNING]
+(service-3) Configuration value missing, using default |
+request_id=53136 2025-01-01T01:17:15 [INFO] (service-4) Session
+validated | request_id=50776 2025-01-01T01:17:20 [WARNING] (service-3)
+Deprecated API used | request_id=62601 2025-01-01T01:17:25 [WARNING]
+(service-2) API response slower than expected | request_id=61995
+2025-01-01T01:17:30 [ERROR] (service-1) Timeout while calling external
+API | request_id=35332 2025-01-01T01:17:35 [ERROR] (service-3)
+Authentication failed | request_id=69568 2025-01-01T01:17:40 [WARNING]
+(service-2) Configuration value missing, using default |
+request_id=12761 2025-01-01T01:17:45 [ERROR] (service-5) Invalid
+configuration format | request_id=81469 2025-01-01T01:17:50 [WARNING]
+(service-2) Queue length growing | request_id=12392 2025-01-01T01:17:55
+[WARNING] (service-3) Temporary network latency detected |
+request_id=51460 2025-01-01T01:18:00 [WARNING] (service-2) Configuration
+value missing, using default | request_id=20733 2025-01-01T01:18:05
+[WARNING] (service-4) High memory usage detected | request_id=71481
+2025-01-01T01:18:10 [ERROR] (service-1) Database connection failed |
+request_id=47282 2025-01-01T01:18:15 [ERROR] (service-5) Invalid
+configuration format | request_id=38394 2025-01-01T01:18:20 [WARNING]
+(service-1) Token nearing expiration | request_id=47435
+2025-01-01T01:18:25 [WARNING] (service-4) Retrying failed request |
+request_id=10887 2025-01-01T01:18:30 [WARNING] (service-1) Deprecated
+API used | request_id=93961 2025-01-01T01:18:35 [ERROR] (service-1)
+Failed to write to disk | request_id=72219 2025-01-01T01:18:40 [INFO]
+(service-1) Cache refreshed | request_id=73645 2025-01-01T01:18:45
+[INFO] (service-5) Health check passed | request_id=58111
+2025-01-01T01:18:50 [INFO] (service-3) Session validated |
+request_id=89976 2025-01-01T01:18:55 [ERROR] (service-5) File not found
+| request_id=39236 2025-01-01T01:19:00 [WARNING] (service-4) Queue
+length growing | request_id=41738 2025-01-01T01:19:05 [ERROR]
+(service-2) Invalid configuration format | request_id=36290
+2025-01-01T01:19:10 [WARNING] (service-1) Cache miss spike detected |
+request_id=43997 2025-01-01T01:19:15 [INFO] (service-5) Session
+validated | request_id=77386 2025-01-01T01:19:20 [WARNING] (service-4)
+Configuration value missing, using default | request_id=25125
+2025-01-01T01:19:25 [ERROR] (service-3) Unhandled exception occurred |
+request_id=41908 2025-01-01T01:19:30 [ERROR] (service-5) Timeout while
+calling external API | request_id=54579 2025-01-01T01:19:35 [WARNING]
+(service-5) Queue length growing | request_id=79351 2025-01-01T01:19:40
+[ERROR] (service-1) Permission denied | request_id=26090
+2025-01-01T01:19:45 [INFO] (service-5) Cache refreshed |
+request_id=21089 2025-01-01T01:19:50 [WARNING] (service-1) Queue length
+growing | request_id=43264 2025-01-01T01:19:55 [WARNING] (service-4) API
+response slower than expected | request_id=71605 2025-01-01T01:20:00
+[WARNING] (service-1) API response slower than expected |
+request_id=35683 2025-01-01T01:20:05 [ERROR] (service-1) File not found
+| request_id=78776 2025-01-01T01:20:10 [WARNING] (service-5) Token
+nearing expiration | request_id=73335 2025-01-01T01:20:15 [ERROR]
+(service-1) Null pointer exception | request_id=65375
+2025-01-01T01:20:20 [ERROR] (service-3) Permission denied |
+request_id=23759 2025-01-01T01:20:25 [INFO] (service-2) Scheduled job
+executed | request_id=91728 2025-01-01T01:20:30 [ERROR] (service-5)
+Authentication failed | request_id=87671 2025-01-01T01:20:35 [ERROR]
+(service-5) Database connection failed | request_id=20718
+2025-01-01T01:20:40 [ERROR] (service-3) Unhandled exception occurred |
+request_id=35283 2025-01-01T01:20:45 [INFO] (service-2) Metrics reported
+| request_id=37479 2025-01-01T01:20:50 [WARNING] (service-1) Disk usage
+above 80% | request_id=17234 2025-01-01T01:20:55 [ERROR] (service-5)
+Failed to write to disk | request_id=21319 2025-01-01T01:21:00 [INFO]
+(service-5) Service started | request_id=43494 2025-01-01T01:21:05
+[WARNING] (service-1) API response slower than expected |
+request_id=18018 2025-01-01T01:21:10 [WARNING] (service-1) API response
+slower than expected | request_id=46743 2025-01-01T01:21:15 [INFO]
+(service-3) Database connection established | request_id=28441
+2025-01-01T01:21:20 [WARNING] (service-2) API response slower than
+expected | request_id=14032 2025-01-01T01:21:25 [ERROR] (service-2) File
+not found | request_id=46302 2025-01-01T01:21:30 [WARNING] (service-3)
+Temporary network latency detected | request_id=47051
+2025-01-01T01:21:35 [WARNING] (service-2) Cache miss spike detected |
+request_id=74833 2025-01-01T01:21:40 [ERROR] (service-5) Null pointer
+exception | request_id=19608 2025-01-01T01:21:45 [INFO] (service-5)
+Session validated | request_id=20922 2025-01-01T01:21:50 [ERROR]
+(service-2) Unhandled exception occurred | request_id=54702
+2025-01-01T01:21:55 [ERROR] (service-2) Authentication failed |
+request_id=34789 2025-01-01T01:22:00 [WARNING] (service-5) Queue length
+growing | request_id=73405 2025-01-01T01:22:05 [WARNING] (service-1) API
+response slower than expected | request_id=67869 2025-01-01T01:22:10
+[WARNING] (service-3) Cache miss spike detected | request_id=81383
+2025-01-01T01:22:15 [INFO] (service-1) File processed successfully |
+request_id=93633 2025-01-01T01:22:20 [ERROR] (service-4) Unhandled
+exception occurred | request_id=64394 2025-01-01T01:22:25 [INFO]
+(service-4) Configuration loaded | request_id=74526 2025-01-01T01:22:30
+[INFO] (service-2) User login successful | request_id=79085
+2025-01-01T01:22:35 [INFO] (service-5) Cache refreshed |
+request_id=18678 2025-01-01T01:22:40 [ERROR] (service-4) Database
+connection failed | request_id=92856 2025-01-01T01:22:45 [ERROR]
+(service-3) File not found | request_id=89024 2025-01-01T01:22:50 [INFO]
+(service-4) Health check passed | request_id=80299 2025-01-01T01:22:55
+[INFO] (service-5) Service started | request_id=41640
+2025-01-01T01:23:00 [WARNING] (service-3) Temporary network latency
+detected | request_id=34140 2025-01-01T01:23:05 [ERROR] (service-3)
+Database connection failed | request_id=58710 2025-01-01T01:23:10
+[ERROR] (service-4) File not found | request_id=12363
+2025-01-01T01:23:15 [ERROR] (service-2) Failed to write to disk |
+request_id=66755

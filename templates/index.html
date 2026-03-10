@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Cloud AI Log Analyzer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="/static/css/hacker.css">
+
+<style>
+
+body{
+background:black;
+color:#00ff9c;
+font-family:monospace;
+}
+
+.hero{
+text-align:center;
+padding:60px 20px;
+}
+
+.hero h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.hero p{
+color:#00ff9caa;
+font-size:16px;
+}
+
+.actions{
+margin-top:30px;
+}
+
+.actions button{
+margin:10px;
+font-size:16px;
+padding:12px 25px;
+background:black;
+border:1px solid #00ff9c;
+color:#00ff9c;
+cursor:pointer;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:50px;
+}
+
+.feature{
+border:1px solid #00ff9c;
+padding:20px;
+text-align:center;
+box-shadow:0 0 15px #00ff9c55;
+}
+
+.system-status{
+margin-top:60px;
+text-align:center;
+}
+
+.status-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+margin-top:20px;
+}
+
+.status-box{
+border:1px solid #00ff9c;
+padding:20px;
+box-shadow:0 0 10px #00ff9c55;
+}
+
+.status-box p{
+font-size:22px;
+}
+
+.panel{
+border:1px solid #00ff9c;
+padding:20px;
+margin-top:20px;
+}
+
+input{
+background:black;
+color:#00ff9c;
+border:1px solid #00ff9c;
+padding:8px;
+}
+
+button{
+background:black;
+border:1px solid #00ff9c;
+color:#00ff9c;
+padding:10px 20px;
+cursor:pointer;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="hero">
+
+<h1>☠ CLOUD AI SECURITY DASHBOARD ☠</h1>
+
+<p>
+AI Powered Log Monitoring • Threat Detection • Risk Intelligence
+</p>
+
+<form id="uploadForm" class="panel">
+
+<input type="file" id="logfile" required>
+
+<br><br>
+
+<button type="submit">UPLOAD & ANALYZE LOG</button>
+
+<p id="status"></p>
+
+</form>
+
+<div class="actions">
+
+<a href="/analysis">
+<button>VIEW ANALYSIS</button>
+</a>
+
+<a href="/charts">
+<button>VIEW RISK CHART</button>
+</a>
+
+</div>
+
+</div>
+
+
+<!-- LIVE SYSTEM MONITOR -->
+
+<div class="system-status">
+
+<h2>⚡ SYSTEM MONITOR</h2>
+
+<div class="status-grid">
+
+<div class="status-box">
+<h3>System Status</h3>
+<p id="sysStatus">ONLINE</p>
+</div>
+
+<div class="status-box">
+<h3>AI Engine</h3>
+<p id="aiStatus">RUNNING</p>
+</div>
+
+<div class="status-box">
+<h3>Threats Today</h3>
+<p id="threatCount">0</p>
+</div>
+
+<div class="status-box">
+<h3>Last Scan</h3>
+<p id="lastScan">0s ago</p>
+</div>
+
+</div>
+
+</div>
+
+
+<!-- FEATURES -->
+
+<div class="features">
+
+<div class="feature">
+<h3>⚡ Real-Time Log Processing</h3>
+<p>Instant parsing and analysis of system log files.</p>
+</div>
+
+<div class="feature">
+<h3>🧠 AI Risk Detection</h3>
+<p>Automatically detects anomalies and risk levels.</p>
+</div>
+
+<div class="feature">
+<h3>📊 Visual Threat Dashboard</h3>
+<p>Interactive charts for security monitoring.</p>
+</div>
+
+<div class="feature">
+<h3>🚨 Smart Alert System</h3>
+<p>Automatic alerts for high-risk system behavior.</p>
+</div>
+
+</div>
+
+</div>
+
+
+<script src="/static/js/dashboard.js"></script>
+
+<script>
+
+let threats = 5;
+
+function updateSystem(){
+
+threats += Math.floor(Math.random()*2);
+
+document.getElementById("threatCount").innerText = threats;
+
+document.getElementById("lastScan").innerText =
+Math.floor(Math.random()*5) + "s ago";
+
+}
+
+setInterval(updateSystem,3000);
+
+</script>
+
+</body>
+</html>
