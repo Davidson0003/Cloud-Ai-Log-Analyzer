@@ -1,0 +1,23 @@
+{
+    "summary": {
+        "risk_level": "High",
+        "risk_score": 60,
+        "is_anomaly": true
+    },
+    "stats": {
+        "total_logs": 90,
+        "errors": 80,
+        "warnings": 5,
+        "info": 5
+    },
+    "time_analysis": {
+        "activity_pattern": "No data",
+        "spike_detected": false
+    },
+    "alert": {
+        "alert": true,
+        "severity": "High",
+        "message": "System instability detected. Investigation recommended."
+    },
+    "explanation": "High error rate observed (88.89% of total logs). Overall system risk classified as High."
+}

@@ -1,24 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 
+<meta charset="UTF-8">
 <title>AI Security Analysis</title>
 
 <link rel="stylesheet" href="/static/css/hacker.css">
 
 <style>
-
-body{
-background:black;
-color:#00ff9c;
-font-family:monospace;
-}
-
-.container{
-width:90%;
-margin:auto;
-}
 
 .grid{
 display:grid;
@@ -38,6 +28,7 @@ box-shadow:0 0 15px #00ff9c55;
 font-size:28px;
 }
 
+/* STATUS */
 .status{
 display:flex;
 gap:20px;
@@ -51,62 +42,44 @@ flex:1;
 text-align:center;
 }
 
+/* TERMINAL */
 .terminal{
 background:black;
 color:#00ff9c;
+font-family:monospace;
 padding:15px;
 height:150px;
 overflow:auto;
 border:1px solid #00ff9c;
-margin-top:10px;
 }
 
-.panel{
-margin-top:30px;
-border:1px solid #00ff9c;
+/* ALERT UPGRADE */
+.alert-box{
+margin-top:20px;
 padding:20px;
-}
-
-.alert{
-padding:12px;
-margin-top:10px;
-border-left:5px solid;
-animation:blink 1.5s infinite alternate;
-}
-
-.alert.safe{
-border-color:#00ff9c;
-background:#002b1a;
-}
-
-.alert.warning{
-border-color:orange;
-background:#332100;
-}
-
-.alert.critical{
-border-color:red;
-background:#330000;
+border:2px solid red;
+box-shadow:0 0 20px red;
+animation: blink 1s infinite alternate;
 }
 
 @keyframes blink{
-from{opacity:0.6;}
+from{opacity:0.7;}
 to{opacity:1;}
 }
 
-#threatBar{
-height:20px;
-background:red;
-width:10%;
+.alert-critical{
+border-color:red;
+box-shadow:0 0 20px red;
 }
 
-button{
-background:black;
-border:1px solid #00ff9c;
-color:#00ff9c;
-padding:10px;
-margin-top:20px;
-cursor:pointer;
+.alert-high{
+border-color:orange;
+box-shadow:0 0 20px orange;
+}
+
+.alert-normal{
+border-color:green;
+box-shadow:0 0 20px green;
 }
 
 </style>
@@ -114,13 +87,12 @@ cursor:pointer;
 </head>
 
 <body>
-<canvas id="matrix"></canvas>
+
 <div class="container">
 
 <h1>☠ AI SECURITY OPERATIONS CENTER ☠</h1>
 
 <!-- METRICS -->
-
 <div class="grid">
 
 <div class="card">
@@ -145,8 +117,7 @@ cursor:pointer;
 
 </div>
 
-<!-- SYSTEM STATUS -->
-
+<!-- STATUS -->
 <div class="status">
 
 <div>
@@ -166,46 +137,21 @@ cursor:pointer;
 
 </div>
 
-<!-- AI TERMINAL -->
-
+<!-- TERMINAL -->
 <h2 style="margin-top:40px;">🧠 AI Security Console</h2>
 
 <div class="terminal" id="terminal"></div>
 
-<!-- ALERTS -->
-
-<div class="panel">
-
-<h2>🚨 AI Threat Alerts</h2>
-
-<div id="alertBox"></div>
-
+<!-- 🔥 ADVANCED ALERT -->
+<div id="alertBox" class="alert-box">
+<h2>🚨 AI THREAT ALERT SYSTEM 🚨</h2>
+<p id="alertMessage"></p>
 </div>
 
-<!-- THREAT SCORE -->
+<br>
 
-<div class="panel">
-
-<h2>🧠 AI Threat Score</h2>
-
-<div style="border:1px solid #00ff9c;padding:10px">
-<div id="threatBar"></div>
-</div>
-
-</div>
-
-<!-- LIVE ATTACK FEED -->
-
-<div class="panel">
-
-<h2>📡 Live Attack Feed</h2>
-
-<div class="terminal" id="attackFeed"></div>
-
-</div>
-
-<a href="/"><button>⬅ Back</button></a>
-<a href="/charts"><button>View Charts</button></a>
+<a href="/charts"><button>VIEW CHARTS →</button></a>
+<a href="/index"><button>⬅ BACK</button></a>
 
 </div>
 
@@ -215,63 +161,28 @@ const data = JSON.parse(localStorage.getItem("analysis"));
 
 if(data){
 
+// METRICS
 document.getElementById("totalLogs").innerText = data.stats.total_logs;
 document.getElementById("errors").innerText = data.stats.errors;
 document.getElementById("warnings").innerText = data.stats.warnings;
 document.getElementById("riskLevel").innerText = data.summary.risk_level;
 
+// STATUS
 if(data.summary.is_anomaly){
 document.getElementById("anomalyStatus").innerText="Detected";
 document.getElementById("threatStatus").innerText=data.summary.risk_level;
-}else{
+document.getElementById("systemStatus").innerText="Under Risk";
+}
+else{
 document.getElementById("anomalyStatus").innerText="None";
 document.getElementById("threatStatus").innerText="Safe";
+document.getElementById("systemStatus").innerText="Stable";
 }
 
-const alertBox = document.getElementById("alertBox");
+// TERMINAL ANIMATION
+const terminal = document.getElementById("terminal");
 
-function showAlert(type,message){
-
-const div=document.createElement("div");
-
-div.classList.add("alert");
-div.classList.add(type);
-
-div.innerText=message;
-
-alertBox.appendChild(div);
-
-}
-
-if(data.summary.risk_level==="HIGH"){
-
-showAlert("critical","🚨 CRITICAL: High risk activity detected!");
-
-document.body.style.background="#120000";
-
-setInterval(()=>{
-document.body.style.background =
-document.body.style.background==="black" ? "#120000" : "black";
-},500);
-
-}
-
-if(data.summary.risk_level==="MEDIUM"){
-showAlert("warning","⚠ Suspicious activity detected.");
-}
-
-if(data.summary.risk_level==="LOW"){
-showAlert("safe","✔ System secure.");
-}
-
-if(data.summary.is_anomaly){
-showAlert("critical","☠ AI detected anomaly in log patterns.");
-}
-
-const terminal=document.getElementById("terminal");
-
-const logs=[
-
+const logs = [
 "Initializing AI security engine...",
 "Scanning uploaded logs...",
 "Parsing log patterns...",
@@ -279,77 +190,39 @@ const logs=[
 "Calculating risk score...",
 "Generating threat intelligence...",
 data.explanation
-
 ];
 
 let i=0;
 
 function typeLine(){
-
 if(i<logs.length){
-
 terminal.innerHTML += logs[i] + "<br>";
-
-terminal.scrollTop=terminal.scrollHeight;
-
+terminal.scrollTop = terminal.scrollHeight;
 i++;
-
 setTimeout(typeLine,700);
-
 }
-
 }
-
 typeLine();
 
+// 🔥 ALERT SYSTEM
+const alertBox = document.getElementById("alertBox");
+const alertMessage = document.getElementById("alertMessage");
+
+alertMessage.innerText = data.alert.message;
+
+if(data.alert.severity === "Critical"){
+alertBox.classList.add("alert-critical");
+}
+else if(data.alert.severity === "High"){
+alertBox.classList.add("alert-high");
+}
+else{
+alertBox.classList.add("alert-normal");
 }
 
-const attackFeed=document.getElementById("attackFeed");
-
-const attacks=[
-
-"Brute force login attempt from 185.220.101.1",
-"Port scan detected on port 22",
-"Suspicious SQL query detected",
-"Multiple failed authentication attempts",
-"Possible XSS payload detected",
-"High traffic anomaly detected",
-"Unauthorized admin access attempt",
-"Malicious IP flagged by AI engine"
-
-];
-
-function generateAttack(){
-
-const msg=attacks[Math.floor(Math.random()*attacks.length)];
-
-attackFeed.innerHTML+="⚠ "+msg+"<br>";
-
-attackFeed.scrollTop=attackFeed.scrollHeight;
-
 }
-
-setInterval(generateAttack,2000);
-
-const bar=document.getElementById("threatBar");
-
-let score=10;
-
-function updateThreat(){
-
-score+=Math.random()*20-10;
-
-if(score<5) score=5;
-if(score>100) score=100;
-
-bar.style.width=score+"%";
-
-}
-
-setInterval(updateThreat,3000);
 
 </script>
 
 </body>
-
 </html>

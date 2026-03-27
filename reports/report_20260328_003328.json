@@ -1,0 +1,23 @@
+{
+    "summary": {
+        "risk_level": "Low",
+        "risk_score": 10,
+        "is_anomaly": false
+    },
+    "stats": {
+        "total_logs": 90,
+        "errors": 18,
+        "warnings": 18,
+        "info": 54
+    },
+    "time_analysis": {
+        "activity_pattern": "No data",
+        "spike_detected": false
+    },
+    "alert": {
+        "alert": false,
+        "severity": "Normal",
+        "message": "System operating within normal parameters."
+    },
+    "explanation": "System behavior is normal. No significant anomalies detected."
+}

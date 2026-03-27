@@ -16,6 +16,7 @@ from core.system_logger import log_event
 from core.report import export_report
 from core.ingestion import read_log_file
 
+# ------------------ APP SETUP ------------------
 app = Flask(__name__)
 
 UPLOAD_FOLDER = "uploads"
@@ -26,21 +27,29 @@ app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(REPORT_FOLDER, exist_ok=True)
 
+# ------------------ ROUTES ------------------
 
+# HOME PAGE
 @app.route("/")
 def home():
+    return render_template("home.html")
+
+# UPLOAD PAGE
+@app.route("/index")
+def index():
     return render_template("index.html")
 
-
+# ANALYSIS PAGE
 @app.route("/analysis")
-def analysis():
+def analysis_page():
     return render_template("analysis.html")
 
-
+# CHART PAGE
 @app.route("/charts")
-def charts():
+def charts_page():
     return render_template("charts.html")
 
+# ------------------ ANALYZE ------------------
 
 @app.route("/analyze", methods=["POST"])
 def analyze_logs():
@@ -50,27 +59,30 @@ def analyze_logs():
     if not file or not allowed_file(file.filename):
         return jsonify({"error": "Invalid file"}), 400
 
+    # SAVE FILE
     filepath = os.path.join(app.config["UPLOAD_FOLDER"], file.filename)
     file.save(filepath)
 
+    # READ LOGS
     raw_lines = read_log_file(filepath)
 
+    # PARSE + VALIDATE
     parsed = parse_logs(raw_lines)
     valid = validate_logs(parsed)
 
+    # FEATURES
     features = extract_features(valid)
 
+    # ANALYSIS
     anomaly = detect_anomaly(features)
     risk = calculate_risk(anomaly)
-
     explanation = generate_explanation(features, anomaly, risk)
 
     metrics = aggregate_metrics(features, anomaly, risk)
-
     time_analysis = analyze_time_series(features.get("hourly_activity", {}))
-
     alert = generate_alert(risk)
 
+    # PREPARE DASHBOARD DATA
     dashboard_data = prepare_dashboard_response(
         metrics,
         explanation,
@@ -78,17 +90,21 @@ def analyze_logs():
         alert
     )
 
+    # REPORT
     report_path = export_report(dashboard_data)
-
     dashboard_data["report_path"] = report_path
+
+    # 🔥 IMPORTANT: SEND LOGS FOR CHART PAGE
+    dashboard_data["logs"] = valid
 
     return jsonify(dashboard_data)
 
-
+# DOWNLOAD REPORT
 @app.route("/reports/<path:filename>")
 def download_report(filename):
     return send_from_directory("reports", filename, as_attachment=True)
 
+# ------------------ MAIN ------------------
 
 if __name__ == "__main__":
     app.run(debug=True)

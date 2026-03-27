@@ -1,0 +1,23 @@
+{
+    "summary": {
+        "risk_level": "Critical",
+        "risk_score": 80,
+        "is_anomaly": true
+    },
+    "stats": {
+        "total_logs": 300,
+        "errors": 100,
+        "warnings": 100,
+        "info": 100
+    },
+    "time_analysis": {
+        "activity_pattern": "No data",
+        "spike_detected": false
+    },
+    "alert": {
+        "alert": true,
+        "severity": "Critical",
+        "message": "Immediate attention required! System at high risk."
+    },
+    "explanation": "High error rate observed (33.33% of total logs). Unusually high number of warning messages detected. Overall system risk classified as Critical."
+}

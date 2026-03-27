@@ -30,6 +30,7 @@ localStorage.setItem("analysis", JSON.stringify(data));
 
 status.innerText = "Analysis complete";
 
+window.location.href = "/analysis";
 });
 
 }

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Neural Threat Matrix</title>
+
+<link rel="stylesheet" href="/static/css/hacker.css">
+
+<style>
+
+body{
+background:#030303;
+overflow-x:hidden;
+}
+
+/* SCAN LINE */
+
+body::after{
+content:"";
+position:fixed;
+width:100%;
+height:100%;
+background:linear-gradient(transparent 95%, rgba(0,255,156,0.08) 100%);
+background-size:100% 4px;
+pointer-events:none;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:80px 20px;
+}
+
+/* TITLE */
+
+.title{
+font-size:46px;
+letter-spacing:4px;
+color:#00ff9c;
+text-transform:uppercase;
+}
+
+/* TERMINAL */
+
+.terminal{
+background:black;
+border:1px solid #00ff9c;
+padding:20px;
+height:160px;
+overflow:auto;
+font-family:monospace;
+margin-top:40px;
+box-shadow:0 0 15px #00ff9c55;
+}
+
+/* BUTTON */
+
+.btn{
+margin-top:40px;
+padding:14px 40px;
+border:1px solid #00ff9c;
+background:black;
+color:#00ff9c;
+cursor:pointer;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#00ff9c;
+color:black;
+}
+
+/* ALERT */
+
+.alert-bar{
+margin-top:25px;
+padding:10px;
+border:1px solid red;
+color:red;
+text-align:center;
+animation:pulse 1.5s infinite;
+}
+
+@keyframes pulse{
+50%{opacity:0.4;}
+}
+
+/* ABOUT */
+
+.about{
+margin-top:60px;
+border:1px solid #00ff9c;
+padding:30px;
+box-shadow:0 0 25px #00ff9c33;
+}
+
+.about h2{
+margin-bottom:20px;
+}
+
+.about p{
+line-height:1.8;
+}
+
+/* CARDS */
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:40px;
+}
+
+.card{
+border:1px solid #00ff9c;
+padding:20px;
+text-align:center;
+transition:0.3s;
+}
+
+.card:hover{
+box-shadow:0 0 20px #00ff9c;
+transform:scale(1.05);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="hero">
+
+<h1 class="title">⚡ NEURAL THREAT MATRIX ⚡</h1>
+
+<div class="terminal" id="terminal"></div>
+
+<div class="alert-bar">
+⚠ REAL-TIME THREAT SURVEILLANCE ACTIVE ⚠
+</div>
+
+<a href="/index">
+<button class="btn">ENTER SYSTEM</button>
+</a>
+
+</div>
+
+<!-- 🧠 ABOUT -->
+
+<div class="about">
+
+<h2>🧠 SYSTEM INTELLIGENCE CORE</h2>
+
+<p>
+
+The <b>Neural Threat Matrix</b> operates as an advanced cybersecurity intelligence system engineered to analyze, interpret, and respond to system-level events through continuous log monitoring.
+
+<br><br>
+
+At its core, the system ingests raw log streams and converts them into structured data, enabling deep behavioral analysis of system activity. Every log entry becomes a signal that contributes to a larger intelligence model.
+
+<br><br>
+
+The platform applies rule-based anomaly detection techniques to identify irregular patterns such as elevated error rates, abnormal warning distributions, and unusual operational spikes.
+
+<br><br>
+
+A dynamic risk computation engine evaluates these anomalies and assigns a quantified <b>risk score</b>, classifying system health into multiple severity levels ranging from stable to critical.
+
+<br><br>
+
+Beyond detection, the system generates contextual explanations, transforming technical log data into human-readable insights that assist in rapid decision-making and threat response.
+
+<br><br>
+
+This architecture simulates a lightweight <b>Security Operations Center (SOC)</b>, integrating monitoring, detection, visualization, and reporting into a unified intelligent interface.
+
+<br><br>
+
+Designed for scalability, the system can be extended to real-time streaming, machine learning-based anomaly detection, and cloud-native deployment environments.
+
+</p>
+
+</div>
+
+<!-- FEATURES -->
+
+<div class="features">
+
+<div class="card">
+<h3>⚡ Real-Time Analysis</h3>
+<p>Continuous monitoring of system logs</p>
+</div>
+
+<div class="card">
+<h3>🧠 Intelligence Engine</h3>
+<p>Pattern recognition & anomaly detection</p>
+</div>
+
+<div class="card">
+<h3>📊 Risk Visualization</h3>
+<p>Graph-based threat analysis</p>
+</div>
+
+<div class="card">
+<h3>🚨 Alert System</h3>
+<p>Instant high-risk notifications</p>
+</div>
+
+</div>
+
+</div>
+
+<script>
+
+/* 🔁 LOOPING TERMINAL */
+
+const lines = [
+"> Initializing AI core...",
+"> Loading threat models...",
+"> Parsing system logs...",
+"> Detecting anomalies...",
+"> Calculating risk score...",
+"> System ready..."
+];
+
+let i = 0;
+
+function loopTerminal(){
+const terminal = document.getElementById("terminal");
+
+if(i < lines.length){
+terminal.innerHTML += lines[i] + "<br>";
+terminal.scrollTop = terminal.scrollHeight;
+i++;
+setTimeout(loopTerminal,600);
+}
+else{
+setTimeout(()=>{
+terminal.innerHTML = "";
+i = 0;
+loopTerminal();
+},2000);
+}
+}
+
+loopTerminal();
+
+</script>
+
+</body>
+</html>
